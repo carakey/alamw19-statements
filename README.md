@@ -65,7 +65,7 @@ The project's objective isn't to call out a particular organization for problema
 
 Anonymity was increased drastically by redacting all tagged entities from F2 and subsequent generations of the document, replacing them with generic substitute text strings identifying the type of entity, e.g. "[Organization]." The added identity information was also incorporated into the substitute text strings. Additionally, supporting contextual information about the text was dropped, including document titles; only the standardized title categories were kept.  
 
-A list of [all redacted ALAMW19 entities](documentation/entity_list.html) is included in the project documentation, generated using XQuery,[entity_list.xquery](queries/entity_list.xquery).
+A list of [all redacted ALAMW19 entities](documentation/entity_list.html) is included in the project documentation, generated using XQuery, [entity_list.xquery](queries/entity_list.xquery).
 
 A list of [ALAMW19 Document Titles sorted by their attributes](documentation/title_att_list.html) is included in the project documentation, generated using XQuery, [title_att_list.xquery](queries/title_att_list.xquery).
 
