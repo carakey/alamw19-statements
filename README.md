@@ -52,10 +52,10 @@ For focus, 17 out of 18 used one of four concepts:
 
 For context, 11 out of 18 titles explicitly addressed either:
 
-1. The isolated event(s) of the 2019 ALA Midwinter Meeting[^1]
+1. The isolated event(s) of the 2019 ALA Midwinter Meeting
 1. The library profession
 
-[^1]: One statement title used the wording “ALA Conferences,” which somewhat sits in between the two categories. However, analyzing the title in conjunction with the text, the first sentence referred to incidents at “the most recent American Library Association Midwinter Meeting,” and so I did make a judgment call to mark it in the "ALAMW19" category.
+Note: One statement title used the wording “ALA Conferences,” which somewhat sits in between the two categories. However, analyzing the title in conjunction with the text, the first sentence referred to incidents at “the most recent American Library Association Midwinter Meeting,” and so I did make a judgment call to mark it in the "ALAMW19" category.
 
 After the initial pass encoding the structure, the next effort was about anonymizing the text. I encoded as _entities_ all specifically identified people, organizations, places, events, and named programs, as well as mentions of specific protected groups and functional areas that would identify the organization responsible for the text. For organizations, I also marked whether the reference was to the same organization responsible for the statement or to an affiliate. For people, I marked the level of anonymity: whether the person had been identified by name, could be identified by the information given, or was referred to anonymously (as much as possible given the publicity of the events).
 
@@ -79,7 +79,7 @@ A list of [ALAMW19 Document Titles sorted by their attributes](documentation/tit
 
 1. Applied this XSLT to transform [alamw19_statements_f1.xml](xml_generations/alamw19_statements_f1.xml) to [alamw19_statements_f2_raw.xml](xml_generations/alamw19_statements_f2_raw.xml).
 
-### F2 to F3 and F3 to F4 Conversion: Random-Ordered Text
+### F2 to F3 / F3 to F4 Conversion: Random-Ordered Text
 
 In spending the time marking the entities, I developed a loose sense of the location of each organization's statement within the document, which could still lead to the same bias problem in my analysis. To address this, I copied the statements to an F3 document in a randomized order. To further obscure the original order, I then repeated the process to produce an F4 document.
 
