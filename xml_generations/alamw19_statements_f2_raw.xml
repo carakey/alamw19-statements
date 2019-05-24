@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+
+    <header>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>Text encoding of professional library organizations' statements in response
+                    to racism at the 2019 ALA Midwinter Meeting</title>
+                <respStmt>
+                    <resp>Prepared by Cara Key</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <p>Published in GitHub: https://github.com/carakey/alamw19-statements.</p>
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>Statements were originally posted on various platforms, including organization
+                    web sites, ALA Connect, and social media sites; the specific web location for
+                    each is identified in the statement metadata in the first generation (F1) of
+                    this XML document.</p>
+                <p>The document "Statements from ALA Units and Affiliates on Racism within ALA"
+                    posted by Diedre Conkling on ALA Connect on Feb 7 was used as the source of the
+                    statements list. Source:
+                    https://docs.google.com/document/d/13IQd6EZCN5Z670y5G-2bpkUMnqpOE9KeWv0YD2ig6os</p>
+            </sourceDesc>
+
+        </fileDesc>
+
+        <encodingDesc>
+
+            <projectDesc>
+                <p>This project is an encoding of statements issued by ALA, its divisions, sections,
+                    and other affiliates in response to the incidents of racism and harassment that
+                    occurred at ALA's 2019 Midwinter Meeting. The text has been encoded through a
+                    combination of manual markup and iterative XSL transformations, and the
+                    resulting data supports qualitative content analysis using XQuery.</p>
+            </projectDesc>
+
+            <samplingDecl>
+                <p>The following items, included in Conkling's list, were not part of the project
+                    for the reasons given: (1) ASERL: Statement from Yolanda Cooper, ASERL Board
+                    President, 2/5/19: http://www.aserl.org/; Reason for omission: Statement is no
+                    longer available at this link, and could not be found with a reasonable amount
+                    of searching. (2) GODORT Statement from the GODORT Steering Committee, 2/4/19:
+                    https://bit.ly/2E5oJh; Reason for omission: Statement is no longer available at
+                    this link, and could not be found with a reasonable amount of searching. (3) ALA
+                    President announces future EDI Efforts, 2/8/19: https://bit.ly/2RNffvf; Reason
+                    for omission: Not an explicit response to ALAMW 2019 incidents. (4) Educopia
+                    Institute: Making Community Spaces Safer..., 2/8/19: https://bit.ly/2BxFjoE;
+                    Reason for omission: Not produced by an ALA unit/affiliate.</p>
+            </samplingDecl>
+
+        </encodingDesc>
+
+    </header>
+
+
+    <text>
+        <group>
+
+            <text focus="incidents" context="alamw19">
+            <body>
+
+                    <p>We should not – and do not – accept harassment, bullying or discrimination of
+                        any kind in our profession or the work of [This Organization]. These behaviors go against our
+                        values. Violations to our code of conduct will not be tolerated.</p>
+
+                    <p>We established a code of conduct because we take the responsibility of being
+                        respectful to each other very seriously.</p>
+
+                    <p>We send our sincere apologies to [Named Person] for what she went through at [Event], which is unacceptable and doesn’t
+                        align with our core values.</p>
+
+                    <p>[Implied Person] and
+                            [Implied Person] met
+                        with [Named Person] in
+                            [Place] shortly before
+                            [Event] to share some nonpublic
+                        information about events after the incident in question. [This Organization] leaders deeply regrets
+                        any distress this caused; it was not the intent of [Implied Person] or [This Organization] to threaten [Named Person] in any way.</p>
+
+                    <p>[Anonymous Person] who
+                        instigated the incident has resigned and the Executive Board has accepted
+                        his resignation.</p>
+
+                    <p>We also offer our sincere apologies to members who also experienced
+                        violations of the code of conduct at [Event].</p>
+
+                    <p>We want to recognize that this incident has caused a lot of hurt and we are
+                        working diligently to ensure that at all [This Organization] events participants are - and feel -
+                        respected.  </p>
+
+                    <p>The Executive Board will form a working group to look at [Event] and ways to make it a safer space up to its
+                        continued viability.</p>
+
+                    <p>We will review the current code of conduct complaint process to make it
+                        stronger and more effective.</p>
+
+                    <p>We will work on facilitated racial equity training for [Event] during [Event]; that training and the code of conduct will be built into
+                            [Organization] Orientation moving
+                        forward.</p>
+
+                    <p>In collaboration with the Office for Diversity, Literacy and Outreach
+                        Services, we will coordinate online and in-person resources on equity,
+                        diversity and inclusion for all members and for [This Organization] staff members.</p>
+
+                    <p>[This Organization] and [Organization] have developed resources [Link] to embed
+                        principles of equity, diversity and inclusion in the work library workers
+                        do; see specifics for 2018 here [Link]. Last October during [Event], the Executive Board voted to affirm that [This Organization] will apply a social
+                        justice framework to the [Organization] Strategic
+                            Directions [Link] for
+                        the next three-to-five years in the areas of Advocacy, Information Policy,
+                        Professional and Leadership Development, and Equity, Diversity and
+                        Inclusion. We are building on the 2019 [Program] about "White Fragility" [Link].</p>
+
+                    <p>This work can be messy, it takes time, but the Executive Board strives to
+                        create a better association every day. We ask for your collaboration to help
+                        us break through the systems of oppression and do the right thing at the
+                        right time, each time, as it should be done.</p>
+
+                </body>
+         </text>
+
+            <text focus="racism" context="unspecified">
+            <body>
+                    <p>[This Organization] expresses its support for the
+                        Black people and people of color who experienced racism and harassment at
+                            [Event] in [Place]. These incidents are not singular or
+                        isolated, and, coupled with the recent racial profiling and discrimination
+                        of Black future librarians at a university library in [Place] [Link] and a public library in [Place] [Link], illustrates that there is much work to do to address systemic
+                        discrimination, bias, power, and white privilege in our profession. While
+                        the [Program] at [Event] was on white fragility, and [Organization] often passes resolutions with
+                        statements that purportedly support marginalized communities, [Organization] itself as a member organization is
+                        frequently not a safe space for BIPOC; and [This Organization] calls on [Organization] to formally investigate some of the incidents that
+                        occurred during [Event].</p>
+
+                    <p>[This Organization], one of the five
+                        ethnic affiliates of [Organization], is committed to “advancing social justice and
+                        providing opportunities for dialogue” and we strongly denounce these types
+                        of behavior, which create toxic environments for people of color. [This Organization] acknowledges the
+                        complexity of intersectional identities and how multiple systems of
+                        oppression such as racism, sexism, classism, ableism and heterosexism (among
+                        others) overlap and compound on the individual, and advocates for
+                        prioritizing the experiences and voices of marginalized groups, and engaging
+                        in difficult dialogues in order to create a more just, equitable, diverse,
+                        and inclusive organization.</p>
+
+                    <p>[This Organization] calls for [Organization] to uphold
+                        its core organizational values of  “ethics, professionalism, and integrity,”
+                        to commit to its key areas of diversity that are “…a fundamental value of
+                        the association and its members,” and to follow through on its commitment to
+                        engage with diversity in deeper ways. [This Organization] calls for [Organization] to engage with the five
+                        ethnic-affiliates of [Organization], [This Organization], [Organization], [Organization], and [Organization] to
+                        create meaningful and purposeful change through discussion and action, in
+                        order to make the profession more inclusive.</p>
+
+                </body>
+         </text>
+
+            <text focus="racism" context="profession">
+            <body>
+                    <p>The [This Organization] Board of Directors is aware that
+                            [Event] attendees have reported
+                        experiencing violations of the conference Code of Conduct, including
+                        incidents of racism, harassment, and discrimination. We laud the strength of
+                        those who have shared their experiences to draw needed attention to
+                        violations, and we abhor the systemic inequities in our profession that have
+                        normalized discriminatory, harassing, and racist behaviors.</p>
+
+                    <p>As a division of [Organization], we are aware that
+                            [This Organization] also has work
+                        to do to address systemic racism and oppressive practices within [This Organization]. We
+                        recognize that [This Organization] is
+                        not as representative as it needs to be. [This Organization] has a core commitment to Equity,
+                        Diversity, and Inclusion [Link] and
+                        recognizes the urgency of taking steps to create a responsive association
+                        that empowers all of its members. As part of our commitment, we have
+                        arranged anti-bias training for leaders and trainers within [This Organization] and funded additional
+                            [Program] for colleagues of
+                        color to join and thrive in the profession. We expect our leaders and
+                        members to be courageous in speaking against harassment or bullying behavior
+                        when they witness it.</p>
+
+                    <p>Our commitment to a more equitable, inclusive, and diverse association leads
+                        us to strongly urge [Organization] to carry out
+                        the work it has promised to do in its statement [Link] and to set up town hall sessions with [Organization], the Executive Board, and the general membership, and
+                        to seriously reflect on enacting our professional values. Our profession
+                        needs to talk about the way that racism and systems that privilege whiteness
+                        have permeated our profession and our professional events. The [This Organization] Board, Conference
+                        planners, and staff will be reviewing plans for [Event] [Link] in [Place] to ensure that it is a safe
+                        and welcoming place for all.</p>
+
+                    <p>This work is critical. We do it in service of building a more inclusive and
+                        equitable association and profession, and more inclusive and equitable
+                        libraries for our communities. We hope that all [This Organization] members will reaffirm the Board’s
+                        commitment to being advocates for our colleagues and advancing social
+                        justice in our communities and association.</p>
+                </body>
+         </text>
+
+            <text focus="racism" context="profession">
+            <body>
+                    <p>[This Organization] has learned that various conference attendees
+                        conveyed experiencing inappropriate and unacceptable behavior, including
+                        displays of racism and discrimination, at [Event] in [Place].</p>
+
+                    <p>An ethnic affiliate of [Organization], [This Organization] is an association committed to supporting the
+                        academic, professional, and personal efforts of [Protected Group]. It is
+                        disheartening to learn that as we near our 50th anniversary as an
+                        organization, we are still dealing with micro and macro aggressions that
+                        make the library profession difficult for many people of color to
+                        navigate.</p>
+
+                    <p>In working with and for [Protected Group] we are cognizant of the systemic racism that affects
+                        the lives of marginalized individuals and acknowledge that, while people of
+                        color may reach leadership positions, we cannot dismiss the hostility and
+                        inequity that comes with being a person of color in a predominantly white
+                        profession, as well as the ways oppression impacts all minority groups.</p>
+
+                    <p>[This Organization] urges [Organization] to address
+                        racism and discrimination in the profession, be it at the institutional
+                        level or at professional development convenings. As a beacon for information
+                        that is viewed globally, [Organization] must be
+                        the foundation for inclusion and respect for all. We ask that [Organization] take action, and support librarians of
+                        color who experience deliberate or unconscious discrimination, by taking all
+                        accusations or concerns regarding racism seriously. It requires further
+                        investigation and is a dialogue that must expand upon the program on 'White
+                        Fragility'.</p>
+
+                    <p>[This Organization] stands with
+                        individuals who have been seen as anything other than their authentic selves
+                        recognizing that discrimination finds roots in all marginalized communities
+                        and across intersections of identity. We must not forget that while
+                        libraries are repositories and hubs for information and resources, they are
+                        also the cornerstone of the human condition where social justice plays a
+                        role in aiding in the quality of life for all.</p>
+                </body>
+         </text>
+
+            <text focus="racism" context="unspecified">
+            <body>
+                    <p>[This Organization] stands with the individuals who experienced racism
+                        and discrimination at [Event] in [Place]. We
+                        stand with those who preserve and celebrate all cultures. Racism and
+                        discrimination dishonor every culture.</p>
+
+                    <p>As an ethnic affiliate of [Organization], [This Organization] is a membership action group that addresses the
+                        library-related needs of [Protected Group]. [This Organization] is committed to promoting true representations of [Protected Group] cultures, languages, and
+                        values. As [This Organization] reaches
+                        its 40th anniversary, we strongly support librarians of color. We urge
+                            [Organization] to
+                        address racism and discrimination in the profession at the institutional
+                        level and at all professional development meetings.</p>
+
+                    <p>[This Organization] joins our fellow ethnic affiliates, [Organization], [Organization], [Organization], and [Organization], and offers our support to [Organization] in order
+                        to realize [Organization]’s future. [This Organization] appreciates the work
+                        of [Named Person] of
+                        the Office for Diversity, Literacy &amp; Outreach Services for [Organization] and is
+                        committed to working with [Organization] to
+                        address racism, bias, and discrimination in our communities.</p>
+                </body>
+         </text>
+
+            <text focus="incidents" context="alamw19">
+            <body>
+                    <p>[This Organization] thanks [Organization], [Organization] Executive
+                        Board, [Organization] and [Organization] for crafting such appropriate
+                        statements against racism and discrimination in the Library profession, in
+                        response to conference attendees receiving inappropriate and unacceptable
+                        behavior during [Event]. We are
+                        in agreement with the expressions of concern and call for [Organization] to step up in leading our association
+                        and its members through the task of understanding, valuing differences and
+                        communicating respectfully. Education with conversation is an essential
+                        component to a journey of complete inclusion with fair and equal treatment
+                        for all. [This Organization] stands
+                        committed to these values and welcomes the opportunity to collaborate with
+                        the other affiliates and [Organization] to promote
+                        and provide cultural sensitivity training.</p>
+                </body>
+         </text>
+
+            <text focus="violations" context="alamw19">
+            <body>
+                    <p>We at [This Organization] condemn strongly the incidents of racist behavior
+                        that have been reported at the most recent [Event], the best known of which
+                        is the verbal attack on [Named Person] at [Event]. Other
+                        attendees have reported acts of aggression, exclusion, and racial profiling
+                        at this and previous conferences. This ongoing pattern of exclusionary
+                        behavior is absolutely unacceptable and completely contrary to our values as
+                        both a profession and an organization.</p>
+
+                    <p>We fully support the action steps outlined by [Named Person] (1) [Link]. We note that in a statement issued on Thursday, January 31st, the
+                            [Organization] Executive Board has made at
+                        least some steps towards each of these requests. We urge [Organization] and the [Organization] Executive Board to continue to move
+                        forward in addressing the concerns of its members. Further, we request that,
+                        in the interest of transparency and accountability, the [Organization] Conference Services Office give regular
+                        accounts of incidents of racism, homophobia, and other bigotry reported at
+                        conferences.</p>
+
+                    <p>The change we must see goes beyond simple "diversity": we must take a truly
+                        progressive approach to championing anti-racism in our actions. If we are to
+                        live up to the directive in the [Organization]
+                        mission statement to "enhance learning and ensure access to information for
+                        all," (2) [Link]
+                        we must do better. We must protect each other, we must respect each other,
+                        and we must value each other. If we will not do these things for each other,
+                        we cannot do them for our communities.</p>
+                </body>
+         </text>
+
+            <text focus="racism" context="unspecified">
+            <body>
+                    <p>[This Organization] expresses its support and
+                        stands in solidarity with [Organization] members
+                        who have experienced racism, discrimination, and microaggressions within our
+                        association, most recently, but certainly not only at [Event]. We are categorically opposed
+                        to the harassment and aggression toward people of color in our profession
+                        and our professional community, online and in person.</p>
+
+                    <p>[This Organization] is also
+                        deeply concerned and disturbed to have been made aware of past instances of
+                        homophobic and bullying remarks directed at [Anonymous Person] during [Event]. We are
+                        equally categorically opposed to the harassment, bullying, and
+                        discrimination of our members, and people of all [Protected Group] and [Protected Group].</p>
+
+                    <p>Recognizing and celebrating the wonderful diversity and intersectionality of
+                        voices and rich, lived experiences within the library community, and of the
+                        initial steps taken by [Organization] to address
+                        issues of equity, diversity, and inclusion through the efforts of the Office
+                        of Diversity, Literacy, and Outreach Services (ODLOS), [This Organization] acknowledges
+                        there is much more work to be done, and will continue to help create safe
+                        spaces for these voices to be heard and play an active role in our
+                        organization. In conjunction with ODLOS, and in solidarity with [Organization]’s five ethnic affiliates, [Organization],
+                            [Organization], [Organization], [Organization], and [Organization], [This Organization] will continue to
+                        work toward greater inclusion within our association and professional
+                        community in whatever capacity it can.</p>
+
+                    <p>[This Organization] also calls on
+                            [Organization] to
+                        be more proactive and transparent in reporting instances of racism,
+                        bullying, and discrimination and the action taken to address these
+                        instances, to review and reinforce its code of conduct at all levels of the
+                        organization, and to provide opportunities for all members to participate in
+                        this review.</p>
+                </body>
+         </text>
+
+            <text focus="incidents" context="alamw19">
+            <body>
+                    <p>The [This Organization] Board of Directors is aware that
+                        there were several reports on social media from attendees who encountered
+                        aggressive behavior, racism, and harassment at [Event], which violated our values of diversity,
+                        equity, and inclusion, and that there were multiple incident reports filed,
+                        including one formal complaint regarding the violation of the Code of
+                        Conduct as well. We thank those who were able to share their experiences and
+                        draw attention to the systemic issues that our society and profession face.
+                        As an association with an unwavering commitment to the values of diversity,
+                        equity, and inclusion, [This Organization] believes that clear action is necessary and seeks
+                        partnerships within [Organization] and beyond to
+                        address these issues of systematic oppression.</p>
+
+                    <p>It is our belief that safety, both physical and psychological, is a
+                        requirement for the full engagement of participants. [This Organization] is committed to
+                        ensuring, through policy and action, that the culture and activities of
+                            [This Organization] and [Organization] are safe and productive. We are
+                        therefore in agreement with the numerous expressions of concern and call for
+                            [Organization] to step up in leading our
+                        association and its members through the difficult but necessary work of
+                        dismantling system oppression within the profession, understanding
+                        differences, valuing those differences, and ultimately, learning how to
+                        communicate and innovate in an inclusive manner that welcomes diverse
+                        perspectives.</p>
+
+                    <p>[This Organization] believes that
+                        education is a key component of this work. For this reason, we have decided
+                        to commit funds to the creation and dissemination of free bystander/allyship
+                        webinars. In collaboration with other units of [Organization], we will develop trainings that we hope will equip [This Organization] members with tools
+                        that empower active and effective allyship, recognize and undo oppressive
+                        behaviors and systems, and promote the practice of cultural humility,
+                        thereby collectively increasing our collaborative capacity.</p>
+
+                    <p>As always, [This Organization] stands
+                        committed to the values of diversity, equity, and inclusion and welcomes
+                        opportunities to collaborate and partner with [Organization] and beyond in order to realize these values fully. We
+                        thank the [Organization] Executive Board and
+                            [Organization] for crafting an appropriate
+                        statement about racism and discrimination in the Library profession.</p>
+                </body>
+         </text>
+
+            <text focus="racism" context="profession">
+            <body>
+                    <p>The [This Organization] Board of Directors has learned of racist,
+                        discriminatory, and harassing behavior at [Event] in [Place].
+                        We would like to express our support to those who were harassed and
+                        discriminated against during this particular incident and to all those who
+                        have lived and worked too long in unsafe environments.</p>
+
+                    <p>We would also like to renew our commitment to our statement on Equity,
+                        Diversity, and Inclusion and call upon [Organization] Executive Committee to quickly respond, reassess, and
+                        renew its commitment to their fourth strategic direction, through education
+                        and advocacy for our colleagues and our patrons.</p>
+
+                    <p>It is more important than ever that we as [This Organization] and as librarians and library staff work
+                        on addressing the pervasive privilege and bias within our profession and
+                        association. It is our responsibility to continue this work so that we can
+                        continue to ensure “the right of access to information for people of all
+                        identities, backgrounds, ages, and abilities especially with regard to
+                        marginalized peoples.”</p>
+                </body>
+         </text>
+
+            <text focus="violations" context="alamw19">
+            <body>
+                    <p>Many of you know about the incident of racialized aggression [Link] that [Named Person]
+                        experienced during the [Event] in [Place]. She was not
+                        alone; others, too, shared experiences of aggression during [Organization] events, this [Event] and earlier. These harmful experiences by people of
+                        color continue to be endemic to our profession and our professional
+                        associations.</p>
+
+                    <p>In response, the [Organization] Executive
+                            Board [Link], the [Organization] Board [Link], and
+                            [Organization] [Link] (a [Protected Group] affiliate of [Organization]) have released statements condemning
+                        racism, harassment, and discrimination within the profession. Additionally,
+                        two [Organization] Councilors, [Named Person]
+                        and [Named Person] composed an open letter addressing racialized
+                            aggression [Link] in [Place]; both [Organization] Councilors and non-councilors are
+                        invited to sign.</p>
+
+                    <p>We, the [This Organization] Executive Committee, are committed to cultivating an
+                        anti-racist ethos across [This Organization]. We do not speak on behalf of [Organization] or [Organization]. Rather, we are communicating the steps we will take as
+                        leaders within [This Organization] to enact our shared professional values.</p>
+
+                    <p>We will commit our time slot for [Program] at [Event] to showcasing social justice work in [Functional Area]. We will hold a
+                        virtual town hall to acknowledge the continuing impact of racism on
+                        librarians and librarianship and organize collective action we can take to
+                        create anti-racist communities within the section and across [Organization]. Finally, we will arrange for training
+                        on anti-oppressive meeting facilitation to incoming [This Organization] committee chairs,
+                        committee members, and discussion group conveners.</p>
+
+                    <p>We also want to hear from you. How can [This Organization] take action to become the kind of
+                        inclusive professional community each of us deserves? To share your thoughts
+                        with all members of the [This Organization]’s Executive Committee, please write to [This Organization]
+                         [Link]. You may also reach
+                        out to any of us individually.</p>
+
+                    <p>[This Organization] was formed so that library workers engaged in [Functional Area] could see a place
+                        for themselves within [Organization] and [Organization]. Together we must make sure that the
+                            [This Organization] is a safe
+                        and welcoming community for all of our members. Let’s get to work.</p>
+
+                </body>
+         </text>
+
+            <text focus="unspecified" context="unspecified">
+            <body>
+                    <p>[This Organization] voices our serious concern about the
+                        reported verbal abuse of [Anonymous Person], at [Event].</p>
+
+                    <p>[This Organization] reasserts our
+                        commitment to equity, diversity and inclusion at all meetings and events. We
+                        have a zero-tolerance policy towards harassment or intimidating and
+                        aggressive behavior. We strongly urge [Organization] to hold their [Organization]
+                        accountable to ensure a safe space for all who attend their conferences.</p>
+
+                    <p>Incidents like these do not exist in a vacuum. We at [This Organization] are committed to do
+                        better by our community of librarians, and we insist that as our parent
+                        organization [Organization] take leadership to do
+                        the same.</p>
+                </body>
+         </text>
+
+            <text focus="violations" context="alamw19">
+            <body>
+                    <p>[This Organization] would like
+                        to echo and support the statement [Link]
+                        sent earlier by [Organization] regarding the
+                        reported verbal abuse of [Anonymous Person] as well as to express concern about additional racist
+                        incidents at [Event] that
+                        were reported on social media.</p>
+
+                    <p>[This Organization] affirms our
+                        commitment to equity, diversity, and inclusion and would like to see [Organization] uphold their commitment to creating
+                        inclusive spaces throughout their conferences, including in programs, the
+                        exhibit hall, social events, and governance meetings. While having a
+                        Statement of Appropriate Conduct [Link] is critical to ensuring victims of harassment have recourse, what matters
+                        most is how victims and the accused are treated in the investigative
+                        process. That one victim felt that she was being silenced during the process
+                        is concerning. Greater transparency should be provided to members of [Organization]’s elected governance structures about
+                        how reports are handled while respecting the privacy of those involved.</p>
+
+                    <p>We appreciate the [Organization] Executive Board’s
+                            statement [Link] and hope
+                        that it will ensure that structures are in place to address equity issues
+                        and limit racial trauma within our organization. We appreciate that both
+                            [Organization] and [Organization] are committed to providing anti-bias training for leaders
+                        and hope that this is extended to staff as well.</p>
+
+                    <p>While our profession is focused on serving our diverse communities, there is
+                        a history in this country of libraries and librarians upholding racism. The
+                        lack of diversity of our own profession reflects this. We can all do more to
+                        confront racism in our libraries and professional organizations and [This Organization] is committed to
+                        this work as well.</p>
+                </body>
+         </text>
+
+            <text focus="edi" context="unspecified">
+            <body>
+                    <p>[This Organization] asserts its commitment to diversity, equity,
+                        and inclusion as core values of [This Organization]. This commitment is deeply embedded in the
+                        mission of libraries and archives, and in the work we do as an
+                        institutional-member organization called upon to provide leadership in key
+                        issues and practices that define our profession.</p>
+
+                    <p>The harassment and intimidation that occurred during the recent [Event] should be of grave concern to all in the profession and
+                        in the broader society. These events telegraph that we, as a society and a
+                        profession, are far from truly realizing the vision of racial equity that so
+                        many desire and that must be a core principle if we are to be a just and
+                        equitable society.</p>
+
+                    <p>[This Organization] affirms its
+                        responsibility for providing resources and educating leaders in libraries
+                        and archives about the systemic barriers to achieving racial equity. [This Organization] recently
+                        adopted a code of conduct [Link] for our meetings and
+                        interactions, and we commit to bystander/ally training for the Board of
+                        Directors and staff to ensure that our meetings are welcoming, inclusive,
+                        and free of harassment or intimidation.</p>
+
+                    <p>We will use this stark reminder of injustice as an opportunity for discussion
+                        and growth, so that we might strengthen our role in advancing equity and
+                        inclusion for all in our association and in our profession.</p>
+                </body>
+         </text>
+
+            <text focus="edi" context="unspecified">
+            <body>
+                    <p>At the recent [Event],
+                        there were reports of violations of [Organization]’s Code of Conduct and the [Organization] Executive Board has released this statement [Link].</p>
+
+                    <p>Like [Organization], [This Organization] is committed to creating an inclusive
+                        environment for all our members. In its 2018–2022 Strategic Plan [Link], the
+                            [This Organization] Board of
+                        Directors affirmed its commitment to equity, diversity, inclusion and social
+                        justice (EDISJ). This work requires persistent and vigilant efforts to speak
+                        out and take action against oppression in [Functional Area], in society, and within the library
+                        profession. To fully meet these goals, we must examine and test our systems
+                        for acting when we fall short of our aspirations, acknowledge gaps and
+                        shortcomings, and take action to do better. To this end, [This Organization] commits to:</p>
+                    <list>
+                        <item>Supporting and participating in training and forums to address
+                            systemic racism in professional associations;</item>
+                        <item>Re-examining our own systems for developing and delivering inclusive
+                            and respectful programs and events, and for responding in a timely and
+                            transparent manner when incidents arise that violate the [Organization] Code of Conduct;</item>
+                        <item>Continuing and expanding training [Link] and
+                            resources that support equity, diversity, inclusion and social justice
+                            in [This Organization], [Organization] and our libraries;</item>
+                        <item>Equipping our members [Link] with tools,
+                            mentoring/coaching, learning opportunities, and other resources to
+                            advocate and apply EDISJ principles in their libraries and
+                            communities.</item>
+                    </list>
+
+                    <p>Please join [This Organization] leaders
+                        in reaffirming our commitment to equity, diversity, inclusion and advancing
+                        social justice in our libraries, our communities, and our association. We
+                        appreciate all your contributions and look forward to our work together.
+                    </p>
+                </body>
+         </text>
+
+            <text focus="racism" context="unspecified">
+            <body>
+                    <p>In light of reports of incidents of harassing, discriminatory and racist
+                        behavior that occurred at [Event], the [This Organization] Board offers its support to the individuals
+                        who were the targets of such behavior and affirms the statement from the
+                            [Organization] Executive Board [Link] in its denunciation of such behavior, as well as its call to uphold
+                            [Organization]’s Statement of Appropriate
+                            Conduct [Link].</p>
+
+                    <p>In particular, [This Organization]
+                        supports the goals in the Executive Board Statement to provide resources and
+                        training on equity, diversity and inclusion for all members and to apply a
+                        social justice framework to the [Organization]
+                        Strategic Directions. We hope to work with [Organization] to strengthen and improve the Statement of Appropriate
+                        Conduct and ensure its enforcement. [This Organization] also recognizes that words are not enough
+                        for this situation and must be transformed into action.</p>
+
+                    <p>[This Organization] will review its
+                        own activities, both online and in-person, to determine what changes should
+                        be made to bring our actions in line with our rhetoric. [This Organization] is engaged in
+                        supporting equity, diversity and inclusion initiatives through work such as
+                        developing a code of ethics for [Functional Area], supporting the [Functional Area] needs of cultural heritage institutions through
+                            [Program], providing grants
+                        for library professionals from developing countries to attend [This Organization] online courses,
+                        supporting [Organization] Spectrum Scholars, and
+                        providing people from underrepresented groups with awards to attend [Event]. Our current activities,
+                        however, are just a starting point. Our new strategic plan, currently in
+                        draft form, includes explicit support for equity, diversity and inclusion as
+                        a core objective, promulgating the importance of EDI to all levels and
+                        activities within [This Organization]. [This Organization]
+                        will invest financial resources to put the commitments of the [This Organization] strategic plan and
+                        this statement into action. We believe in the adage that every budget is a
+                        moral document—it is both practically and symbolically important that we put
+                        money behind our work in this area.</p>
+
+                    <p>Education and empowerment are key components of the work going forward. We
+                        will highlight the Statement of Appropriate Conduct at all [This Organization] meetings, we will
+                        ensure that participants are able to contact designated [This Organization] EDI resource
+                        representatives in case of conduct violations, and we will provide training
+                        to [This Organization] leaders to
+                        help them become skilled meeting facilitators who can intercede when
+                        behavior becomes problematic. In addition to strengthening [This Organization]’s support
+                        for EDI, we will pursue collaborations and partnerships with other [Organization] divisions and offices in support of
+                        these goals, including working with [Organization] and [Organization] to develop
+                        bystander/allyship webinars and other training.</p>
+
+                    <p>[This Organization] remains committed
+                        to improving equity, diversity and inclusion within the profession and
+                        within [This Organization]
+                        and to eliminating incidents of harassment, racism and discrimination. This
+                        statement serves to reaffirm and redouble our efforts in this area.</p>
+                </body>
+         </text>
+
+            <text focus="incidents" context="alamw19">
+            <body>
+                    <p> The [This Organization] Executive
+                        Committee is troubled by reports of racist, discriminatory, and harassing
+                        behavior at [Event] in
+                            [Place]. We support those who
+                        experienced harassment or discrimination at [Event]. We recognize that many in our profession have been
+                        marginalized, unrecognized, or put in intimidating environments. We believe
+                        that everyone needs to be heard and respected.</p>
+
+                    <p>
+                        [This Organization] includes in its
+                        area of responsibility, service to [Protected Group]. [This Organization] affirms [Organization]'s
+                        fourth strategic direction of equity, diversity and inclusion, and the
+                        priorities set in the Equity Diversity and Inclusion Implementation
+                            Plan [Link]. [This Organization] urges
+                            [Organization] Management and the Executive
+                        Board to take quick action and provide leadership for the profession through
+                        education and advocacy. </p>
+
+                    <p>
+                        [This Organization], [Organization], and the library profession must
+                        prioritize efforts to increase inclusion and respect for everyone. We are
+                        committed to supporting and acting on changes needed to make our profession
+                        and association truly inclusive. </p>
+                </body>
+         </text>
+
+            <text focus="incidents" context="alamw19">
+            <body>
+                    <p>For members who are not aware of recent incidents of harassment at [Event] in [Place], [This Organization] would
+                        like to call attention to the [Organization]
+                        Executive Board’s response [Link].</p>
+
+                    <p>As [This Organization] name
+                        implies, we recognize we have a obligation to model supportive and
+                        respectful [Functional Area] across the
+                        entire organization. [This Organization] affirms the efforts of [Organization] to uphold the Statement of Appropriate Conduct, and
+                        recognizes we have much to do to improve equity, diversity, and inclusion
+                        within [Organization]. [This Organization] members know how important it is both for
+                            [This Organization] and
+                        for our home institutions to combat bias, racism and harassment, so that
+                        through our organizations, we can all provide the best library or
+                        information services possible. [This Organization] will continue to emphasize the [Functional Area] competencies
+                        that support safe, supportive workplaces — Communication skills, Emotional
+                        intelligence, Ethics, Conflict management, Diversity consciousness,
+                        Professionalism and Self awareness — and will seek opportunities to make
+                        sure all our members feel this is their organization.</p>
+                </body>
+         </text>
+
+        </group>
+    </text>
+</document>

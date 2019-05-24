@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document>
+
+    <header>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>Text encoding of professional library organizations' statements in response
+                    to racism at the 2019 ALA Midwinter Meeting</title>
+                <respStmt>
+                    <resp>Prepared by Cara Key</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <p>Published in GitHub: https://github.com/carakey/alamw19-statements.</p>
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>Statements were originally posted on various platforms, including organization
+                    web sites, ALA Connect, and social media sites; the specific web location for
+                    each is identified in the statement metadata in the first generation (F1) of
+                    this XML document.</p>
+                <p>The document "Statements from ALA Units and Affiliates on Racism within ALA"
+                    posted by Diedre Conkling on ALA Connect on Feb 7 was used as the source of the
+                    statements list. Source:
+                    https://docs.google.com/document/d/13IQd6EZCN5Z670y5G-2bpkUMnqpOE9KeWv0YD2ig6os</p>
+            </sourceDesc>
+
+        </fileDesc>
+
+        <encodingDesc>
+
+            <projectDesc>
+                <p>This project is an encoding of statements issued by ALA, its divisions, sections,
+                    and other affiliates in response to the incidents of racism and harassment that
+                    occurred at ALA's 2019 Midwinter Meeting. The text has been encoded through a
+                    combination of manual markup and iterative XSL transformations, and the
+                    resulting data supports qualitative content analysis using XQuery.</p>
+            </projectDesc>
+
+            <samplingDecl>
+                <p>The following items, included in Conkling's list, were not part of the project
+                    for the reasons given: (1) ASERL: Statement from Yolanda Cooper, ASERL Board
+                    President, 2/5/19: http://www.aserl.org/; Reason for omission: Statement is no
+                    longer available at this link, and could not be found with a reasonable amount
+                    of searching. (2) GODORT Statement from the GODORT Steering Committee, 2/4/19:
+                    https://bit.ly/2E5oJh; Reason for omission: Statement is no longer available at
+                    this link, and could not be found with a reasonable amount of searching. (3) ALA
+                    President announces future EDI Efforts, 2/8/19: https://bit.ly/2RNffvf; Reason
+                    for omission: Not an explicit response to ALAMW 2019 incidents. (4) Educopia
+                    Institute: Making Community Spaces Safer..., 2/8/19: https://bit.ly/2BxFjoE;
+                    Reason for omission: Not produced by an ALA unit/affiliate.</p>
+            </samplingDecl>
+
+        </encodingDesc>
+
+    </header>
+
+
+    <text>
+        <group>
+
+            <text
+                source="http://www.ala.org/news/member-news/2019/01/ala-executive-board-releases-statement-regarding-incident-council-forum">
+
+                <front>
+                    <docTitle focus="incidents" context="alamw19">ALA Executive Board releases
+                        statement regarding incident at Council Forum</docTitle>
+                    <div type="pub_note">
+                        <l>For Immediate Release</l>
+                        <l>Thu, 01/31/2019</l>
+                    </div>
+                    <div type="contact">
+                        <head>Contact:</head>
+                        <l>Steve Zalusky</l>
+                        <l>Communications Specialist</l>
+                        <l>Communications and Marketing Office</l>
+                        <l>American Library Association</l>
+                        <l>(312) 280-1546</l>
+                        <l>szalusky@ala.org</l>
+                    </div>
+                    <div type="pub_note">
+                        <p>The ALA Executive Board has released the following statement regarding a
+                            recent incident during Council Forum at the ALA Midwinter Meeting &amp;
+                            Exhibits in Seattle.</p>
+                    </div>
+                </front>
+
+                <body>
+
+                    <p>We should not – and do not – accept harassment, bullying or discrimination of
+                        any kind in our profession or the work of <entity type="organization"
+                            identity="self">our Association</entity>. These behaviors go against our
+                        values. Violations to our code of conduct will not be tolerated.</p>
+
+                    <p>We established a code of conduct because we take the responsibility of being
+                        respectful to each other very seriously.</p>
+
+                    <p>We send our sincere apologies to <entity type="person" identity="named"
+                            >Councilor April Hathcock</entity> for what she went through at <entity
+                            type="event">Council Forum</entity>, which is unacceptable and doesn’t
+                        align with our core values.</p>
+
+                    <p><entity type="person" identity="implied">The ALA attorney</entity> and
+                            <entity type="person" identity="implied">President-Elect</entity> met
+                        with <entity type="person" identity="named">April Hathcock</entity> in
+                            <entity type="place">the Council meeting room</entity> shortly before
+                            <entity type="event">Council III</entity> to share some nonpublic
+                        information about events after the incident in question. <entity
+                            type="organization" identity="self">ALA</entity> leaders deeply regrets
+                        any distress this caused; it was not the intent of <entity type="person"
+                            identity="implied">the attorney</entity> or <entity type="organization"
+                            identity="self">ALA</entity> to threaten <entity type="person"
+                            identity="named">Ms Hathcock</entity> in any way.</p>
+
+                    <p><entity type="person" identity="anonymous">The Councilor</entity> who
+                        instigated the incident has resigned and the Executive Board has accepted
+                        his resignation.</p>
+
+                    <p>We also offer our sincere apologies to members who also experienced
+                        violations of the code of conduct at <entity type="event">the Midwinter
+                            meeting</entity>.</p>
+
+                    <p>We want to recognize that this incident has caused a lot of hurt and we are
+                        working diligently to ensure that at all <entity type="organization"
+                            identity="self">ALA</entity> events participants are - and feel -
+                        respected.  </p>
+
+                    <p>The Executive Board will form a working group to look at <entity type="event"
+                            >Council Forum</entity> and ways to make it a safer space up to its
+                        continued viability.</p>
+
+                    <p>We will review the current code of conduct complaint process to make it
+                        stronger and more effective.</p>
+
+                    <p>We will work on facilitated racial equity training for <entity type="event"
+                            >Annual Conference</entity> during <entity type="event">Council
+                            1</entity>; that training and the code of conduct will be built into
+                            <entity type="organization">Council</entity> Orientation moving
+                        forward.</p>
+
+                    <p>In collaboration with the Office for Diversity, Literacy and Outreach
+                        Services, we will coordinate online and in-person resources on equity,
+                        diversity and inclusion for all members and for <entity type="organization"
+                            identity="self">ALA</entity> staff members.</p>
+
+                    <p><entity type="organization" identity="self">ALA</entity> and <entity
+                            type="organization">its Divisions</entity> have developed resources<link
+                            target="http://www.ala.org/aboutala/offices/diversity/edi"/> to embed
+                        principles of equity, diversity and inclusion in the work library workers
+                        do; see specifics for 2018 here<link
+                            target="http://www.ala.org/aboutala/sites/ala.org.aboutala/files/content/diversity/EBD%2012.16_2018%20Recommendations.pdf"
+                        />. Last October during <entity type="event">the 2018 Fall Executive Board
+                            Meeting</entity>, the Executive Board voted to affirm that <entity
+                            type="organization" identity="self">ALA</entity> will apply a social
+                        justice framework to the <entity type="organization">ALA</entity> Strategic
+                            Directions<link target="http://www.ala.org/aboutala/strategicplan"/> for
+                        the next three-to-five years in the areas of Advocacy, Information Policy,
+                        Professional and Leadership Development, and Equity, Diversity and
+                        Inclusion. We are building on the 2019 <entity type="program">President's
+                            Program</entity> about "White Fragility"<link
+                            target="https://americanlibrariesmagazine.org/blogs/the-scoop/robin-diangelo-gets-real-racism/"
+                        />.</p>
+
+                    <p>This work can be messy, it takes time, but the Executive Board strives to
+                        create a better association every day. We ask for your collaboration to help
+                        us break through the systems of oppression and do the right thing at the
+                        right time, each time, as it should be done.</p>
+
+                </body>
+
+                <back>
+                    <div type="tags">
+                        <head>Tags</head>
+                        <l>Council</l>
+                    </div>
+                </back>
+
+            </text>
+
+            <text source="http://www.apalaweb.org/apala-statement-against-racism-and-harassment">
+
+                <front>
+                    <docTitle focus="racism" context="unspecified">APALA statement against racism
+                        and harassment</docTitle>
+                    <div type="pub_note">
+                        <l>For Immediate Release</l>
+                        <l>Thursday, 01/31/2019</l>
+                    </div>
+                    <div type="contact">
+                        <head>CONTACT:</head>
+                        <l>Jaena Rae Cabrera</l>
+                        <l>Co-Chair, Media and Publicity Committee</l>
+                        <l>Asian/Pacific American Librarians Association</l>
+                        <l>communications@apalaweb.org</l>
+                    </div>
+                    <div type="pub_note">
+                        <l>APALA releases statement against racism and harassment</l>
+                    </div>
+                </front>
+
+
+                <body>
+                    <p><entity type="organization" identity="self">The Asian Pacific American
+                            Librarians Association (APALA)</entity> expresses its support for the
+                        Black people and people of color who experienced racism and harassment at
+                            <entity type="event">the 2019 ALA Midwinter Meeting</entity> in <entity
+                            type="place">Seattle, WA</entity>. These incidents are not singular or
+                        isolated, and, coupled with the recent racial profiling and discrimination
+                        of Black future librarians at a university library in <entity type="place"
+                            >the District of Columbia</entity><link
+                            target="https://www.theroot.com/video-librarian-calls-cops-on-student-for-brazen-attem-1829940301"
+                        /> and a public library in <entity type="place">Texas</entity><link
+                            target="https://abc13.com/society/police-called-on-black-grad-student-at-west-u-library/4689993/"
+                        />, illustrates that there is much work to do to address systemic
+                        discrimination, bias, power, and white privilege in our profession. While
+                        the <entity type="program">ALA’s President’s Program</entity> at <entity
+                            type="event">Midwinter</entity> was on white fragility, and <entity
+                            type="organization">ALA Council</entity> often passes resolutions with
+                        statements that purportedly support marginalized communities, <entity
+                            type="organization">ALA</entity> itself as a member organization is
+                        frequently not a safe space for BIPOC; and <entity type="organization"
+                            identity="self">APALA</entity> calls on <entity type="organization"
+                            >ALA</entity> to formally investigate some of the incidents that
+                        occurred during <entity type="event">the ALA Midwinter Meeting</entity>.</p>
+
+                    <p><entity type="organization" identity="self">APALA</entity>, one of the five
+                        ethnic affiliates of <entity type="organization">the American Library
+                            Association</entity>, is committed to “advancing social justice and
+                        providing opportunities for dialogue” and we strongly denounce these types
+                        of behavior, which create toxic environments for people of color. <entity
+                            type="organization" identity="self">APALA</entity> acknowledges the
+                        complexity of intersectional identities and how multiple systems of
+                        oppression such as racism, sexism, classism, ableism and heterosexism (among
+                        others) overlap and compound on the individual, and advocates for
+                        prioritizing the experiences and voices of marginalized groups, and engaging
+                        in difficult dialogues in order to create a more just, equitable, diverse,
+                        and inclusive organization.</p>
+
+                    <p><entity type="organization" identity="self">APALA</entity> calls for <entity
+                            type="organization">the American Library Association</entity> to uphold
+                        its core organizational values of  “ethics, professionalism, and integrity,”
+                        to commit to its key areas of diversity that are “…a fundamental value of
+                        the association and its members,” and to follow through on its commitment to
+                        engage with diversity in deeper ways. <entity type="organization"
+                            identity="self">APALA</entity> calls for <entity type="organization">the
+                            American Library Association</entity> to engage with the five
+                        ethnic-affiliates of <entity type="organization">AILA</entity>, <entity
+                            type="organization" identity="self">APALA</entity>, <entity
+                            type="organization">BCALA</entity>, <entity type="organization"
+                            >CALA</entity>, and <entity type="organization">REFORMA</entity> to
+                        create meaningful and purposeful change through discussion and action, in
+                        order to make the profession more inclusive.</p>
+
+                </body>
+
+                <back>
+                    <div type="pub_note">
+                        <p>On behalf of the APALA Executive Board, by Paolo P. Gujilde, and approved
+                            by members of the APALA Executive Board, Alanna Aiko Moore, Dora T. Ho,
+                            Annie Pho, Peter Spyers-Duran, Lana Adlawan, Jaena Rae Cabrera, Rose L.
+                            Chou, Anchalee (Joy) Panigabutra-Roberts and Buenaventura Basco. </p>
+
+                        <p>Note: Based on the feedback of APALA members, this statement was edited
+                            to show the importance of specifically naming anti-Blackness, to
+                            emphasize that the discrimination that Black people face is very
+                            different from the experiences of non-Black POC.</p>
+                    </div>
+                    <div type="about">
+                        <p>Founded in 1980, the Asian/Pacific American Librarians Association
+                            (APALA) is a 501(c)3 non-profit organization. All donations to APALA are
+                            tax deductible and support our work for library services, programs,
+                            scholarships, awards, and grants related to library services benefiting
+                            Asian/Pacific Americans and Asian/Pacific American librarians.</p>
+                    </div>
+                    <div type="tags">
+                        <l>Tagged ALA Midwinter, harassment, racism</l>
+                    </div>
+                </back>
+
+            </text>
+
+            <text source="https://www.acrl.ala.org/acrlinsider/archives/17145">
+
+                <front>
+                    <docTitle focus="racism" context="profession">ACRL Board Statement Against
+                        Racism, Harassment, and Discrimination in the Profession</docTitle>
+                    <div type="pub_note">
+                        <l>January 31, 2019 * ACRL Board of Directors</l>
+                    </div>
+                    <div type="tags">
+                        <l>Equity, Diversity, and Inclusion</l>
+                    </div>
+                </front>
+
+                <body>
+                    <p>The <entity type="organization" identity="self">Association of College &amp;
+                            Research Libraries (ACRL)</entity> Board of Directors is aware that
+                            <entity type="event">ALA Midwinter</entity> attendees have reported
+                        experiencing violations of the conference Code of Conduct, including
+                        incidents of racism, harassment, and discrimination. We laud the strength of
+                        those who have shared their experiences to draw needed attention to
+                        violations, and we abhor the systemic inequities in our profession that have
+                        normalized discriminatory, harassing, and racist behaviors.</p>
+
+                    <p>As a division of <entity type="organization">ALA</entity>, we are aware that
+                            <entity type="organization" identity="self">ACRL</entity> also has work
+                        to do to address systemic racism and oppressive practices within <entity
+                            type="organization" identity="self">the Association</entity>. We
+                        recognize that <entity type="organization" identity="self">ACRL</entity> is
+                        not as representative as it needs to be. <entity type="organization"
+                            identity="self">ACRL</entity> has a core commitment to Equity,
+                        Diversity, and Inclusion<link
+                            target="https://www.acrl.ala.org/acrlinsider/archives/15380"/> and
+                        recognizes the urgency of taking steps to create a responsive association
+                        that empowers all of its members. As part of our commitment, we have
+                        arranged anti-bias training for leaders and trainers within <entity
+                            type="organization" identity="self">ACRL</entity> and funded additional
+                            <entity type="program">Spectrum Scholarships</entity> for colleagues of
+                        color to join and thrive in the profession. We expect our leaders and
+                        members to be courageous in speaking against harassment or bullying behavior
+                        when they witness it.</p>
+
+                    <p>Our commitment to a more equitable, inclusive, and diverse association leads
+                        us to strongly urge <entity type="organization">ALA</entity> to carry out
+                        the work it has promised to do in its statement<link
+                            target="http://www.ala.org/news/member-news/2019/01/ala-executive-board-releases-statement-regarding-incident-council-forum"
+                        /> and to set up town hall sessions with <entity type="organization"
+                            >Council</entity>, the Executive Board, and the general membership, and
+                        to seriously reflect on enacting our professional values. Our profession
+                        needs to talk about the way that racism and systems that privilege whiteness
+                        have permeated our profession and our professional events. The <entity
+                            type="organization" identity="self">ACRL</entity> Board, Conference
+                        planners, and staff will be reviewing plans for <entity type="event">the
+                            ACRL 2019 Conference</entity><link target="https://conference.acrl.org/"
+                        /> in <entity type="place">Cleveland</entity> to ensure that it is a safe
+                        and welcoming place for all.</p>
+
+                    <p>This work is critical. We do it in service of building a more inclusive and
+                        equitable association and profession, and more inclusive and equitable
+                        libraries for our communities. We hope that all <entity type="organization"
+                            identity="self">ACRL</entity> members will reaffirm the Board’s
+                        commitment to being advocates for our colleagues and advancing social
+                        justice in our communities and association.</p>
+                </body>
+
+            </text>
+
+            <text source="https://www.reforma.org/statement-against-racism">
+
+                <front>
+                    <docTitle focus="racism" context="profession">REFORMA Statement Against Racism
+                        and Discrimination in the Library Profession</docTitle>
+                </front>
+
+                <body>
+                    <p><entity type="organization" identity="self">REFORMA, the National Association
+                            to Promote Library &amp; Information Services to Latinos and the Spanish
+                            Speaking,</entity> has learned that various conference attendees
+                        conveyed experiencing inappropriate and unacceptable behavior, including
+                        displays of racism and discrimination, at <entity type="event">the 2019 ALA
+                            Midwinter Meeting &amp; Exhibits</entity> in <entity type="place"
+                            >Seattle, WA</entity>.</p>
+
+                    <p>An ethnic affiliate of <entity type="organization">the American Library
+                            Association (ALA)</entity>, <entity type="organization" identity="self"
+                            >REFORMA</entity> is an association committed to supporting the
+                        academic, professional, and personal efforts of <entity
+                            type="protected_group">the Latinx community</entity>. It is
+                        disheartening to learn that as we near our 50th anniversary as an
+                        organization, we are still dealing with micro and macro aggressions that
+                        make the library profession difficult for many people of color to
+                        navigate.</p>
+
+                    <p>In working with and for <entity type="protected_group">the Latinx
+                            community</entity> we are cognizant of the systemic racism that affects
+                        the lives of marginalized individuals and acknowledge that, while people of
+                        color may reach leadership positions, we cannot dismiss the hostility and
+                        inequity that comes with being a person of color in a predominantly white
+                        profession, as well as the ways oppression impacts all minority groups.</p>
+
+                    <p><entity type="organization" identity="self">REFORMA</entity> urges <entity
+                            type="organization">the American Library Association</entity> to address
+                        racism and discrimination in the profession, be it at the institutional
+                        level or at professional development convenings. As a beacon for information
+                        that is viewed globally, <entity type="organization">ALA</entity> must be
+                        the foundation for inclusion and respect for all. We ask that <entity
+                            type="organization">ALA</entity> take action, and support librarians of
+                        color who experience deliberate or unconscious discrimination, by taking all
+                        accusations or concerns regarding racism seriously. It requires further
+                        investigation and is a dialogue that must expand upon the program on 'White
+                        Fragility'.</p>
+
+                    <p><entity type="organization" identity="self">REFORMA</entity> stands with
+                        individuals who have been seen as anything other than their authentic selves
+                        recognizing that discrimination finds roots in all marginalized communities
+                        and across intersections of identity. We must not forget that while
+                        libraries are repositories and hubs for information and resources, they are
+                        also the cornerstone of the human condition where social justice plays a
+                        role in aiding in the quality of life for all.</p>
+                </body>
+
+                <back>
+                    <div type="about">
+                        <p>To learn more about REFORMA’s mission, visit reforma.org<link
+                                target="https://www.reforma.org/"/></p>
+                    </div>
+                    <div type="pub_note">
+                        <p>On behalf of the REFORMA Executive Board by David Lopez, REFORMA Western
+                            Region Chapter Representative &amp; ALA Councilor-at-Large</p>
+                        <p>Approved by members of the REFORMA Executive Board: Madeline Peña Feliz,
+                            Kenny Garcia, Tess Tobin, Ana Campos, Gloria Grover, Patricia
+                            Valdovinos, Nicanor Diaz, Manny Figueroa</p>
+                        <p>January 29, 2019</p>
+                    </div>
+                </back>
+
+            </text>
+
+            <text source="https://ailanet.org/aila-statement-against-racism-and-harassment">
+
+                <front>
+                    <docTitle focus="racism" context="unspecified">AILA Statement Against Racism and
+                        Harassment</docTitle>
+                    <div type="pub_note">
+                        <l>February 1, 2019</l>
+                    </div>
+                </front>
+
+                <body>
+                    <p><entity type="organization" identity="self">The American Indian Library
+                            Association</entity> stands with the individuals who experienced racism
+                        and discrimination at <entity type="event">the 2019 ALA Midwinter Meeting
+                            &amp; Exhibits</entity> in <entity type="place">Seattle, WA</entity>. We
+                        stand with those who preserve and celebrate all cultures. Racism and
+                        discrimination dishonor every culture.</p>
+
+                    <p>As an ethnic affiliate of <entity type="organization">the American Library
+                            Association (ALA)</entity>, <entity type="organization" identity="self"
+                            >AILA</entity> is a membership action group that addresses the
+                        library-related needs of <entity type="protected_group">American Indians and
+                            Alaska Natives</entity>. <entity type="organization" identity="self"
+                            >AILA</entity> is committed to promoting true representations of <entity
+                            type="protected_group">American Indian</entity> cultures, languages, and
+                        values. As <entity type="organization" identity="self">AILA</entity> reaches
+                        its 40th anniversary, we strongly support librarians of color. We urge
+                            <entity type="organization">the American Library Association</entity> to
+                        address racism and discrimination in the profession at the institutional
+                        level and at all professional development meetings.</p>
+
+                    <p><entity type="organization" identity="self">The American Indian Library
+                            Association</entity> joins our fellow ethnic affiliates, <entity
+                            type="organization">APALA</entity>, <entity type="organization"
+                            >BCALA</entity>, <entity type="organization">CALA</entity>, and <entity
+                            type="organization">REFORMA</entity>, and offers our support to <entity
+                            type="organization">the American Library Association</entity> in order
+                        to realize <entity type="organization">ALA</entity>’s future. <entity
+                            type="organization" identity="self">AILA</entity> appreciates the work
+                        of <entity type="person" identity="named">Jody Gray, Director</entity> of
+                        the Office for Diversity, Literacy &amp; Outreach Services for <entity
+                            type="organization">American Library Association</entity> and is
+                        committed to working with <entity type="organization">ALA</entity> to
+                        address racism, bias, and discrimination in our communities.</p>
+                </body>
+
+                <back>
+                    <div type="about">
+                        <p>To learn more about AILA’s mission, visit ailanet.org<link
+                                target="http://ailanet.org/"/></p>
+                    </div>
+                    <div type="contact">
+                        <head>CONTACT:</head>
+                        <l>American Indian Library Association</l>
+                        <l>Executive Board</l>
+                        <l>ailawebsite@gmail.com</l>
+                    </div>
+                </back>
+
+            </text>
+
+            <text
+                source="https://www.facebook.com/notes/bcala-the-black-caucus-of-the-american-library-association/statement-in-response-to-incidents-at-ala-midwinter-2019/2250815475243894/">
+
+                <front>
+                    <docTitle focus="incidents" context="alamw19">Statement in Response to Incidents
+                        at ALA Midwinter 2019</docTitle>
+                    <div type="pub_note">
+                        <l>BCALA - The Black Caucus of the American Library Association * Thursday,
+                            January 31, 2019</l>
+                    </div>
+                </front>
+
+                <body>
+                    <p><entity type="organization" identity="self">The Black Caucus of the American
+                            Library Association (BCALA)</entity> thanks <entity type="organization"
+                            >REFORMA</entity>, <entity type="organization">ALA</entity> Executive
+                        Board, <entity type="organization">APALA</entity> and <entity
+                            type="organization">AILA</entity> for crafting such appropriate
+                        statements against racism and discrimination in the Library profession, in
+                        response to conference attendees receiving inappropriate and unacceptable
+                        behavior during <entity type="event">the Midwinter meeting</entity>. We are
+                        in agreement with the expressions of concern and call for <entity
+                            type="organization">ALA</entity> to step up in leading our association
+                        and its members through the task of understanding, valuing differences and
+                        communicating respectfully. Education with conversation is an essential
+                        component to a journey of complete inclusion with fair and equal treatment
+                        for all. <entity type="organization" identity="self">BCALA</entity> stands
+                        committed to these values and welcomes the opportunity to collaborate with
+                        the other affiliates and <entity type="organization">ALA</entity> to promote
+                        and provide cultural sensitivity training.</p>
+                </body>
+
+                <back>
+                    <div type="pub_note">
+                        <p>On behalf of the BCALA Executive Board by Richard E. Ashby, Jr.,
+                            President Black Caucus American Library Association. </p>
+                        <p>Approved by members of the BCALA Executive Board: Shauntee Burns-Simpson,
+                            Denyvetta Davis, Elisa Garcia, Cherese McKnight</p>
+                    </div>
+                </back>
+
+            </text>
+
+            <text source="http://libr.org/srrt/index.php">
+
+                <front>
+                    <docTitle focus="violations" context="alamw19">SRRT Statement on Racist
+                        Aggression at ALA Conferences</docTitle>
+                    <div type="pub_note">
+                        <l>February 2, 2019</l>
+                    </div>
+                </front>
+
+                <body>
+                    <p>We at <entity type="organization" identity="self">the Social Responsibilities
+                            Round Table</entity> condemn strongly the incidents of racist behavior
+                        that have been reported at the most recent <entity type="event">American
+                            Library Association Midwinter Meeting</entity>, the best known of which
+                        is the verbal attack on <entity type="person" identity="named"
+                            >Councilor-at-Large April Hathcock</entity> at <entity type="event">a
+                            Council Forum on Monday evening, January 28, 2019</entity>. Other
+                        attendees have reported acts of aggression, exclusion, and racial profiling
+                        at this and previous conferences. This ongoing pattern of exclusionary
+                        behavior is absolutely unacceptable and completely contrary to our values as
+                        both a profession and an organization.</p>
+
+                    <p>We fully support the action steps outlined by <entity type="person"
+                            identity="named">April Hathcock</entity> (1)<link
+                            target="https://aprilhathcock.wordpress.com/2019/01/30/alamw-what-happened-and-what-should-happen-next/"
+                        />. We note that in a statement issued on Thursday, January 31st, the
+                            <entity type="organization">ALA</entity> Executive Board has made at
+                        least some steps towards each of these requests. We urge <entity
+                            type="organization">the ALA Council</entity> and the <entity
+                            type="organization">ALA</entity> Executive Board to continue to move
+                        forward in addressing the concerns of its members. Further, we request that,
+                        in the interest of transparency and accountability, the <entity
+                            type="organization">ALA</entity> Conference Services Office give regular
+                        accounts of incidents of racism, homophobia, and other bigotry reported at
+                        conferences.</p>
+
+                    <p>The change we must see goes beyond simple "diversity": we must take a truly
+                        progressive approach to championing anti-racism in our actions. If we are to
+                        live up to the directive in the <entity type="organization">ALA</entity>
+                        mission statement to "enhance learning and ensure access to information for
+                        all," (2)<link target="http://www.ala.org/aboutala/missionpriorities%22"/>
+                        we must do better. We must protect each other, we must respect each other,
+                        and we must value each other. If we will not do these things for each other,
+                        we cannot do them for our communities.</p>
+                </body>
+
+                <back>
+                    <div type="contact">
+                        <head>Contact:</head>
+                        <l>Charles E. Kratz,</l>
+                        <l>SRRT Action Council Coordinator</l>
+                        <l>Weinberg Memorial Library</l>
+                        <l>The University of Scranton</l>
+                        <l>Scranton, PA 18510</l>
+                        <l>570-941-4008 (Work)</l>
+                    </div>
+                </back>
+
+            </text>
+
+            <text source="https://www.glbtrt.ala.org/news/archives/4046">
+
+                <front>
+                    <docTitle focus="racism" context="unspecified">GLBT Round Table Statement
+                        against Racism, Harassment, and Bullying</docTitle>
+                    <div type="pub_note">
+                        <l>by GLTBT News</l>
+                    </div>
+                    <div type="tags">
+                        <l>GLBT News</l>
+                        <l>Midwinter Meetings</l>
+                    </div>
+                </front>
+
+                <body>
+                    <p><entity type="organization" identity="self">The Gay, Lesbian, Bisexual, and
+                            Transgender Round Table (GLBTRT)</entity> expresses its support and
+                        stands in solidarity with <entity type="organization">ALA</entity> members
+                        who have experienced racism, discrimination, and microaggressions within our
+                        association, most recently, but certainly not only at <entity type="event"
+                            >the 2019 ALA Midwinter Meeting</entity>. We are categorically opposed
+                        to the harassment and aggression toward people of color in our profession
+                        and our professional community, online and in person.</p>
+
+                    <p><entity type="organization" identity="self">The GLBTRT</entity> is also
+                        deeply concerned and disturbed to have been made aware of past instances of
+                        homophobic and bullying remarks directed at <entity type="person"
+                            identity="anonymous">a GLBTRT member on Council</entity> during <entity
+                            type="event">a discussion on a Council resolution</entity>. We are
+                        equally categorically opposed to the harassment, bullying, and
+                        discrimination of our members, and people of all <entity
+                            type="protected_group">sexual orientations</entity> and <entity
+                            type="protected_group">gender identities</entity>.</p>
+
+                    <p>Recognizing and celebrating the wonderful diversity and intersectionality of
+                        voices and rich, lived experiences within the library community, and of the
+                        initial steps taken by <entity type="organization">ALA</entity> to address
+                        issues of equity, diversity, and inclusion through the efforts of the Office
+                        of Diversity, Literacy, and Outreach Services (ODLOS), <entity
+                            type="organization" identity="self">the GLBTRT</entity> acknowledges
+                        there is much more work to be done, and will continue to help create safe
+                        spaces for these voices to be heard and play an active role in our
+                        organization. In conjunction with ODLOS, and in solidarity with <entity
+                            type="organization">ALA</entity>’s five ethnic affiliates, <entity
+                            type="organization">the American Indian Library Association</entity>,
+                            <entity type="organization">the Asian Pacific American Librarians
+                            Association</entity>, <entity type="organization">the Black Caucus of
+                            the American Library Association</entity>, <entity type="organization"
+                            >the Chinese American Librarians Association</entity>, and <entity
+                            type="organization">the Association to Promote Library and Information
+                            Services to Latinos and the Spanish Speaking</entity>, <entity
+                            type="organization" identity="self">the GLBTRT</entity> will continue to
+                        work toward greater inclusion within our association and professional
+                        community in whatever capacity it can.</p>
+
+                    <p><entity type="organization" identity="self">The GLBTRT</entity> also calls on
+                            <entity type="organization">the American Library Association</entity> to
+                        be more proactive and transparent in reporting instances of racism,
+                        bullying, and discrimination and the action taken to address these
+                        instances, to review and reinforce its code of conduct at all levels of the
+                        organization, and to provide opportunities for all members to participate in
+                        this review.</p>
+                </body>
+
+                <back>
+                    <div type="pub_note">
+                        <l>Posted on behalf of the GLBTRT Executive Board.</l>
+                    </div>
+                </back>
+
+            </text>
+
+            <text
+                source="https://litablog.org/2019/02/litas-statement-in-response-to-incidents-at-ala-midwinter-2019/">
+
+                <front>
+                    <docTitle focus="incidents" context="alamw19">LITA’s Statement in Response to
+                        Incidents at ALA Midwinter 2019</docTitle>
+                    <div type="pub_note">
+                        <l>February 4, 2019 * Jenny Levine</l>
+                    </div>
+                </front>
+
+                <body>
+                    <p>The <entity type="organization" identity="self">Library and Information
+                            Technology Association (LITA)</entity> Board of Directors is aware that
+                        there were several reports on social media from attendees who encountered
+                        aggressive behavior, racism, and harassment at <entity type="event">the 2019
+                            ALA Midwinter Meeting</entity>, which violated our values of diversity,
+                        equity, and inclusion, and that there were multiple incident reports filed,
+                        including one formal complaint regarding the violation of the Code of
+                        Conduct as well. We thank those who were able to share their experiences and
+                        draw attention to the systemic issues that our society and profession face.
+                        As an association with an unwavering commitment to the values of diversity,
+                        equity, and inclusion, <entity type="organization" identity="self"
+                            >LITA</entity> believes that clear action is necessary and seeks
+                        partnerships within <entity type="organization">ALA</entity> and beyond to
+                        address these issues of systematic oppression.</p>
+
+                    <p>It is our belief that safety, both physical and psychological, is a
+                        requirement for the full engagement of participants. <entity
+                            type="organization" identity="self">LITA</entity> is committed to
+                        ensuring, through policy and action, that the culture and activities of
+                            <entity type="organization" identity="self">LITA</entity> and <entity
+                            type="organization">ALA</entity> are safe and productive. We are
+                        therefore in agreement with the numerous expressions of concern and call for
+                            <entity type="organization">ALA</entity> to step up in leading our
+                        association and its members through the difficult but necessary work of
+                        dismantling system oppression within the profession, understanding
+                        differences, valuing those differences, and ultimately, learning how to
+                        communicate and innovate in an inclusive manner that welcomes diverse
+                        perspectives.</p>
+
+                    <p><entity type="organization" identity="self">LITA</entity> believes that
+                        education is a key component of this work. For this reason, we have decided
+                        to commit funds to the creation and dissemination of free bystander/allyship
+                        webinars. In collaboration with other units of <entity type="organization"
+                            >ALA</entity>, we will develop trainings that we hope will equip <entity
+                            type="organization" identity="self">LITA</entity> members with tools
+                        that empower active and effective allyship, recognize and undo oppressive
+                        behaviors and systems, and promote the practice of cultural humility,
+                        thereby collectively increasing our collaborative capacity.</p>
+
+                    <p>As always, <entity type="organization" identity="self">LITA</entity> stands
+                        committed to the values of diversity, equity, and inclusion and welcomes
+                        opportunities to collaborate and partner with <entity type="organization"
+                            >ALA</entity> and beyond in order to realize these values fully. We
+                        thank the <entity type="organization">ALA</entity> Executive Board and
+                            <entity type="organization">REFORMA</entity> for crafting an appropriate
+                        statement about racism and discrimination in the Library profession.</p>
+                </body>
+
+                <back>
+                    <div type="pub_note">
+                        <head>LITA Board of Directors</head>
+                        <p>Bohyun Kim (President), Emily Morton-Owens (President-Elect), Andromeda
+                            Yelton (Past-President), Lindsay Cronk, Tabatha Farney, Amanda L.
+                            Goodman, Margaret Heller, Topher Lawton, Evviva Weinraub, Berika
+                            Williams, Aaron Dobbs (LITA Division Councilor), Jodie Gambill, Brian
+                            Rennick, Mark Beatty (ALA), Jenny Levine (ALA) </p>
+                        <head>LITA Diversity &amp; Inclusion Committee</head>
+                        <p>Jennifer Brown (Chair), Paula Jharina Pascual (Vice-Chair), Melissa
+                            Stoner (Past-Chair), TJ Lamanna, Rebecca Marrall, Ted Quiballo, Jennifer
+                            Vinopal</p>
+                    </div>
+                    <div type="tags">
+                        <l>2019 * alamw19, diversity, inclusion, racism</l>
+                    </div>
+                </back>
+
+            </text>
+
+            <text
+                source="https://rusaupdate.org/2019/02/rusa-statement-against-racism-discrimination-and-harassment-in-the-profession/">
+
+                <front>
+                    <div type="pub_note">
+                        <l>By Reference and User Services Association * February 5, 2019</l>
+                    </div>
+                    <docTitle focus="racism" context="profession">RUSA Statement Against Racism,
+                        Discrimination, and Harassment in the Profession</docTitle>
+                    <div type="pub_note">
+                        <l>February 5, 2019</l>
+                    </div>
+                </front>
+
+                <body>
+                    <p>The <entity type="organization" identity="self">Reference and User Services
+                            Association (RUSA)</entity> Board of Directors has learned of racist,
+                        discriminatory, and harassing behavior at <entity type="event">2019 ALA
+                            Midwinter Meeting</entity> in <entity type="place">Seattle, WA</entity>.
+                        We would like to express our support to those who were harassed and
+                        discriminated against during this particular incident and to all those who
+                        have lived and worked too long in unsafe environments.</p>
+
+                    <p>We would also like to renew our commitment to our statement on Equity,
+                        Diversity, and Inclusion and call upon <entity type="organization"
+                            >ALA</entity> Executive Committee to quickly respond, reassess, and
+                        renew its commitment to their fourth strategic direction, through education
+                        and advocacy for our colleagues and our patrons.</p>
+
+                    <p>It is more important than ever that we as <entity type="organization"
+                            identity="self">RUSA</entity> and as librarians and library staff work
+                        on addressing the pervasive privilege and bias within our profession and
+                        association. It is our responsibility to continue this work so that we can
+                        continue to ensure “the right of access to information for people of all
+                        identities, backgrounds, ages, and abilities especially with regard to
+                        marginalized peoples.”</p>
+                </body>
+
+            </text>
+
+            <text
+                source="https://docs.google.com/document/d/1R7jnzEI9wRlGplx9s3bvH5xr4Hw_qzH38fuu1qcUrfw/edit">
+
+                <front>
+                    <docTitle focus="violations" context="alamw19">Open letter to ACRL Digital
+                        Scholarship Section addressing racial aggression at Midwinter</docTitle>
+                    <div type="pub_note">
+                        <l>SUBJECT: Open letter addressing racialized aggression at Midwinter</l>
+                        <l>DATE: Monday, February 4, 2019</l>
+                        <l>TO: dss-l@lists.ala.org</l>
+                        <l>Dear Digital Scholarship Section members and friends,</l>
+                    </div>
+                </front>
+
+                <body>
+                    <p>Many of you know about the incident of racialized aggression<link
+                            target="https://aprilhathcock.wordpress.com/2019/01/30/alamw-what-happened-and-what-should-happen-next"
+                        /> that <entity type="person" identity="named">April Hathcock</entity>
+                        experienced during the <entity type="event">2019 ALA Midwinter
+                            Meeting</entity> in <entity type="place">Seattle</entity>. She was not
+                        alone; others, too, shared experiences of aggression during <entity
+                            type="organization">ALA</entity> events, this <entity type="event"
+                            >Midwinter</entity> and earlier. These harmful experiences by people of
+                        color continue to be endemic to our profession and our professional
+                        associations.</p>
+
+                    <p>In response, the <entity type="organization">ALA</entity> Executive
+                            Board<link
+                            target="http://www.ala.org/news/member-news/2019/01/ala-executive-board-releases-statement-regarding-incident-council-forum"
+                        />, the <entity type="organization">ACRL</entity> Board<link
+                            target="https://www.acrl.ala.org/acrlinsider/archives/17145"/>, and
+                            <entity type="organization">REFORMA</entity><link
+                            target="https://www.reforma.org/statement-against-racism"/> (a <entity
+                            type="protected_group">Latinx</entity> affiliate of <entity
+                            type="organization">ALA</entity>) have released statements condemning
+                        racism, harassment, and discrimination within the profession. Additionally,
+                        two <entity type="organization">ALA</entity> Councilors, <entity
+                            type="person" identity="named">Erin Stahlberg (ALCTS Councilor)</entity>
+                        and <entity type="person" identity="named">Martin Garnar (IFRT
+                            Councilor)</entity> composed an open letter addressing racialized
+                            aggression<link
+                            target="https://docs.google.com/document/d/1Du9Zo5bDM0MXssrInskn8mZNsIhHybpONeBxxLKru1c/edit"
+                        /> in <entity type="place">Seattle</entity>; both <entity
+                            type="organization">ALA</entity> Councilors and non-councilors are
+                        invited to sign.</p>
+
+                    <p>We, the <entity type="organization" identity="self">Digital Scholarship
+                            Section</entity> Executive Committee, are committed to cultivating an
+                        anti-racist ethos across <entity type="organization" identity="self">the
+                            section</entity>. We do not speak on behalf of <entity
+                            type="organization">ACRL</entity> or <entity type="organization"
+                            >ALA</entity>. Rather, we are communicating the steps we will take as
+                        leaders within <entity type="organization" identity="self">the
+                            section</entity> to enact our shared professional values.</p>
+
+                    <p>We will commit our time slot for <entity type="program">the Digital
+                            Scholarship Information Exchange</entity> at <entity type="event">ALA
+                            Annual 2019</entity> to showcasing social justice work in <entity
+                            type="functional_area">digital scholarship</entity>. We will hold a
+                        virtual town hall to acknowledge the continuing impact of racism on
+                        librarians and librarianship and organize collective action we can take to
+                        create anti-racist communities within the section and across <entity
+                            type="organization">ALA</entity>. Finally, we will arrange for training
+                        on anti-oppressive meeting facilitation to incoming <entity
+                            type="organization" identity="self">section</entity> committee chairs,
+                        committee members, and discussion group conveners.</p>
+
+                    <p>We also want to hear from you. How can <entity type="organization"
+                            identity="self">the section</entity> take action to become the kind of
+                        inclusive professional community each of us deserves? To share your thoughts
+                        with all members of the <entity type="organization" identity="self"
+                            >section</entity>’s Executive Committee, please write to <entity
+                            type="organization" identity="self"
+                            >dssexec-l-request@lists.ala.org</entity>
+                        <link target="mailto:dssexec-l-request@lists.ala.org"/>. You may also reach
+                        out to any of us individually.</p>
+
+                    <p><entity type="organization" identity="self">The Digital Scholarship
+                            Section</entity> was formed so that library workers engaged in <entity
+                            type="functional_area">digital scholarship</entity> could see a place
+                        for themselves within <entity type="organization">ALA</entity> and <entity
+                            type="organization">ACRL</entity>. Together we must make sure that the
+                            <entity type="organization" identity="self">section</entity> is a safe
+                        and welcoming community for all of our members. Let’s get to work.</p>
+
+                </body>
+
+                <back>
+                    <div type="contact">
+                        <l>Sincerely,</l>
+                        <l>Brianna Marshall, Chair, briannahmarshall@gmail.com</l>
+                        <l>Hannah Scates Kettler, Vice-Chair, hannah-s-kettler@uiowa.edu</l>
+                        <l>Chelcie Juliet Rowell, Secretary, chelcie.rowell@tufts.edu</l>
+                        <l>Elisandro Cabada, Member-at-Large, cabada@illinois.edu </l>
+                        <l>Alix Keener, Member-at-Large, alix.keener@gmail.com</l>
+                    </div>
+                </back>
+
+            </text>
+
+            <text source="http://acrlny.org/statement-of-support-concern-from-acrl-ny/">
+
+                <front>
+                    <docTitle focus="unspecified" context="unspecified">Statement of Support &amp;
+                        Concern from ACRL/NY</docTitle>
+                    <div type="pub_note">
+                        <l>Posted on 01/31/2019 by Derek Stadler</l>
+                    </div>
+                </front>
+
+                <body>
+                    <p><entity type="organization" identity="self">The Greater Metropolitan New York
+                            City Chapter of ACRL/NY</entity> voices our serious concern about the
+                        reported verbal abuse of <entity type="person" identity="anonymous">one of
+                            our chapter members</entity>, at <entity type="event">the Council Forum
+                            at ALA midwinter</entity>.</p>
+
+                    <p><entity type="organization" identity="self">ACRL/NY</entity> reasserts our
+                        commitment to equity, diversity and inclusion at all meetings and events. We
+                        have a zero-tolerance policy towards harassment or intimidating and
+                        aggressive behavior. We strongly urge <entity type="organization"
+                            >ALA</entity> to hold their <entity type="organization">Council</entity>
+                        accountable to ensure a safe space for all who attend their conferences.</p>
+
+                    <p>Incidents like these do not exist in a vacuum. We at <entity
+                            type="organization" identity="self">ACRL/NY</entity> are committed to do
+                        better by our community of librarians, and we insist that as our parent
+                        organization <entity type="organization">ALA</entity> take leadership to do
+                        the same.</p>
+                </body>
+
+                <back>
+                    <div type="pub_note">
+                        <l>The Executive Board of ACRL/NY</l>
+                        <l>This entry was posted in News by Derek Stadler.</l>
+                    </div>
+                </back>
+
+            </text>
+
+            <text
+                source="https://acrloregon.org/2019/01/31/statement-of-concern-about-racist-incidents-at-theala-midwinter-conference/">
+
+                <front>
+                    <docTitle focus="violations" context="alamw19">Statement of concern about racist
+                        incidents at the ALA Midwinter Conference</docTitle>
+                    <div type="pub_note">
+                        <l>Posted on January 31, 2019 by ajabm</l>
+                    </div>
+                </front>
+
+                <body>
+                    <p><entity type="organization" identity="self">ACRL-Oregon</entity> would like
+                        to echo and support the statement<link
+                            target="http://acrlny.org/statement-of-support-concern-from-acrl-ny/"/>
+                        sent earlier by <entity type="organization">ACRL/NY</entity> regarding the
+                        reported verbal abuse of <entity type="person" identity="anonymous">their
+                            member</entity> as well as to express concern about additional racist
+                        incidents at <entity type="event">the ALA Midwinter Conference</entity> that
+                        were reported on social media.</p>
+
+                    <p><entity type="organization" identity="self">ACRL-Oregon</entity> affirms our
+                        commitment to equity, diversity, and inclusion and would like to see <entity
+                            type="organization">ALA</entity> uphold their commitment to creating
+                        inclusive spaces throughout their conferences, including in programs, the
+                        exhibit hall, social events, and governance meetings. While having a
+                        Statement of Appropriate Conduct<link
+                            target="http://www.ala.org/conferencesevents/statement_appropriate_conduct"
+                        /> is critical to ensuring victims of harassment have recourse, what matters
+                        most is how victims and the accused are treated in the investigative
+                        process. That one victim felt that she was being silenced during the process
+                        is concerning. Greater transparency should be provided to members of <entity
+                            type="organization">ALA</entity>’s elected governance structures about
+                        how reports are handled while respecting the privacy of those involved.</p>
+
+                    <p>We appreciate the <entity type="organization">ACRL</entity> Executive Board’s
+                            statement<link
+                            target="https://www.acrl.ala.org/acrlinsider/archives/17145"/> and hope
+                        that it will ensure that structures are in place to address equity issues
+                        and limit racial trauma within our organization. We appreciate that both
+                            <entity type="organization">ALA</entity> and <entity type="organization"
+                            >ACRL</entity> are committed to providing anti-bias training for leaders
+                        and hope that this is extended to staff as well.</p>
+
+                    <p>While our profession is focused on serving our diverse communities, there is
+                        a history in this country of libraries and librarians upholding racism. The
+                        lack of diversity of our own profession reflects this. We can all do more to
+                        confront racism in our libraries and professional organizations and <entity
+                            type="organization" identity="self">ACRL-Oregon</entity> is committed to
+                        this work as well.</p>
+                </body>
+
+                <back>
+                    <div type="contact">
+                        <l>The ACRL-Oregon Board</l>
+                        <l>http://acrloregon.org</l>
+                    </div>
+                    <div type="tags">
+                        <l>Filed under: announcements, conferences</l>
+                    </div>
+                </back>
+
+            </text>
+
+            <text
+                source="https://www.arl.org/news/arl-news/4718-arl-affirms-commitment-to-advancing-diversity-equity-inclusion-#">
+
+                <front>
+                    <docTitle focus="edi" context="unspecified">Statement: ARL Affirms Commitment to
+                        Advancing Diversity, Equity, Inclusion</docTitle>
+                    <div type="contact">
+                        <l>by Susan Gibbons, President | susan.gibbons@yale.edu | on February 01,
+                            2019</l>
+                    </div>
+                    <div type="pub_note">
+                        <l>Association of Research Libraries</l>
+                    </div>
+                </front>
+
+                <body>
+                    <p><entity type="organization" identity="self">The Association of Research
+                            Libraries (ARL)</entity> asserts its commitment to diversity, equity,
+                        and inclusion as core values of <entity type="organization" identity="self"
+                            >the Association</entity>. This commitment is deeply embedded in the
+                        mission of libraries and archives, and in the work we do as an
+                        institutional-member organization called upon to provide leadership in key
+                        issues and practices that define our profession.</p>
+
+                    <p>The harassment and intimidation that occurred during the recent <entity
+                            type="event">American Library Association (ALA) Midwinter
+                            Meeting</entity> should be of grave concern to all in the profession and
+                        in the broader society. These events telegraph that we, as a society and a
+                        profession, are far from truly realizing the vision of racial equity that so
+                        many desire and that must be a core principle if we are to be a just and
+                        equitable society.</p>
+
+                    <p><entity type="organization" identity="self">ARL</entity> affirms its
+                        responsibility for providing resources and educating leaders in libraries
+                        and archives about the systemic barriers to achieving racial equity. <entity
+                            type="organization" identity="self">The Association</entity> recently
+                        adopted a code of conduct<link
+                            target="https://www.arl.org/about#codeofconduct"/> for our meetings and
+                        interactions, and we commit to bystander/ally training for the Board of
+                        Directors and staff to ensure that our meetings are welcoming, inclusive,
+                        and free of harassment or intimidation.</p>
+
+                    <p>We will use this stark reminder of injustice as an opportunity for discussion
+                        and growth, so that we might strengthen our role in advancing equity and
+                        inclusion for all in our association and in our profession.</p>
+                </body>
+
+                <back>
+                    <div type="pub_note">
+                        <head>About the Association of Research Libraries</head>
+                        <p>The Association of Research Libraries (ARL) is a nonprofit organization
+                            of 124 research libraries in Canada and the US<link
+                                target="https://www.arl.org/membership#.WtTiDtPwbNB"/> whose mission
+                            is to advance research, learning, and scholarly communication. The
+                            Association fosters the open exchange of ideas and expertise, promotes
+                            equity and diversity, and pursues advocacy and public policy efforts
+                            that reflect the values of the library, scholarly, and higher education
+                            communities. ARL forges partnerships and catalyzes the collective
+                            efforts of research libraries to enable knowledge creation and to
+                            achieve enduring and barrier-free access to information. ARL is on the
+                            web at ARL.org<link target="http://www.arl.org/"/>.</p>
+                    </div>
+                    <div type="tags">
+                        <l>Diversity, Statement</l>
+                    </div>
+                </back>
+
+            </text>
+
+            <text source="http://www.ala.org/pla/about/mission">
+
+                <front>
+                    <div type="pub_note">
+                        <l>PLA Mission and Strategy</l>
+                    </div>
+                    <docTitle focus="edi" context="unspecified">PLA reaffirms commitment to equity,
+                        diversity, inclusion, and social justice</docTitle>
+                </front>
+
+                <body>
+                    <p>At the recent <entity type="event">Midwinter Meeting in Seattle</entity>,
+                        there were reports of violations of <entity type="organization"
+                        >ALA</entity>’s Code of Conduct and the <entity type="organization"
+                            >ALA</entity> Executive Board has released this statement<link
+                            target="http://www.ala.org/news/member-news/2019/01/ala-executive-board-releases-statement-regarding-incident-council-forum"
+                        />.</p>
+
+                    <p>Like <entity type="organization">ALA</entity>, <entity type="organization"
+                            identity="self">PLA</entity> is committed to creating an inclusive
+                        environment for all our members. In its 2018–2022 Strategic Plan<link
+                            target="http://www.ala.org/pla/about/mission/strategicplan"/>, the
+                            <entity type="organization" identity="self">PLA</entity> Board of
+                        Directors affirmed its commitment to equity, diversity, inclusion and social
+                        justice (EDISJ). This work requires persistent and vigilant efforts to speak
+                        out and take action against oppression in <entity type="functional_area"
+                            >public libraries</entity>, in society, and within the library
+                        profession. To fully meet these goals, we must examine and test our systems
+                        for acting when we fall short of our aspirations, acknowledge gaps and
+                        shortcomings, and take action to do better. To this end, <entity
+                            type="organization" identity="self">PLA</entity> commits to:</p>
+                    <list>
+                        <item>Supporting and participating in training and forums to address
+                            systemic racism in professional associations;</item>
+                        <item>Re-examining our own systems for developing and delivering inclusive
+                            and respectful programs and events, and for responding in a timely and
+                            transparent manner when incidents arise that violate the <entity
+                                type="organization">ALA</entity> Code of Conduct;</item>
+                        <item>Continuing and expanding training<link
+                                target="http://www.ala.org/pla/education/inperson/equity"/> and
+                            resources that support equity, diversity, inclusion and social justice
+                            in <entity type="organization" identity="self">PLA</entity>, <entity
+                                type="organization">ALA</entity> and our libraries;</item>
+                        <item>Equipping our members<link
+                                target="http://www.ala.org/pla/initiatives/edi"/> with tools,
+                            mentoring/coaching, learning opportunities, and other resources to
+                            advocate and apply EDISJ principles in their libraries and
+                            communities.</item>
+                    </list>
+
+                    <p>Please join <entity type="organization" identity="self">PLA</entity> leaders
+                        in reaffirming our commitment to equity, diversity, inclusion and advancing
+                        social justice in our libraries, our communities, and our association. We
+                        appreciate all your contributions and look forward to our work together.
+                    </p>
+                </body>
+
+                <back>
+                    <div type="contact">
+                        <p>Please don’t hesitate to share any questions or thoughts with PLA at
+                            pla@ala.org.</p>
+                    </div>
+                </back>
+
+            </text>
+
+            <text
+                source="http://www.ala.org/news/press-releases/2019/02/alcts-statement-against-harassment-racism-and-discrimination-0">
+
+                <front>
+                    <docTitle focus="racism" context="unspecified">ALCTS Statement Against
+                        Harassment, Racism and Discrimination</docTitle>
+                    <div type="pub_note">
+                        <l>For Immediate Release</l>
+                        <l>Mon, 02/11/2019</l>
+                    </div>
+                    <div type="contact">
+                        <head>Contact:</head>
+                        <l>Brooke Morris-Chott</l>
+                        <l>Program Officer, Communications</l>
+                        <l>ALCTS</l>
+                        <l>bmorris@ala.org</l>
+                    </div>
+                    <div type="pub_note">
+                        <l>CHICAGO—</l>
+                    </div>
+                </front>
+
+                <body>
+                    <p>In light of reports of incidents of harassing, discriminatory and racist
+                        behavior that occurred at <entity type="event">the 2019 American Library
+                            Association Midwinter Meeting</entity>, the <entity type="organization"
+                            identity="self">Association for Library Collections and Technical
+                            Services (ALCTS)</entity> Board offers its support to the individuals
+                        who were the targets of such behavior and affirms the statement from the
+                            <entity type="organization">ALA</entity> Executive Board<link
+                            target="http://www.ala.org/news/member-news/2019/01/ala-executive-board-releases-statement-regarding-incident-council-forum"
+                        /> in its denunciation of such behavior, as well as its call to uphold
+                            <entity type="organization">ALA</entity>’s Statement of Appropriate
+                            Conduct<link
+                            target="http://www.ala.org/conferencesevents/statement_appropriate_conduct"
+                        />.</p>
+
+                    <p>In particular, <entity type="organization" identity="self">ALCTS</entity>
+                        supports the goals in the Executive Board Statement to provide resources and
+                        training on equity, diversity and inclusion for all members and to apply a
+                        social justice framework to the <entity type="organization">ALA</entity>
+                        Strategic Directions. We hope to work with <entity type="organization"
+                            >ALA</entity> to strengthen and improve the Statement of Appropriate
+                        Conduct and ensure its enforcement. <entity type="organization"
+                            identity="self">ALCTS</entity> also recognizes that words are not enough
+                        for this situation and must be transformed into action.</p>
+
+                    <p><entity type="organization" identity="self">ALCTS</entity> will review its
+                        own activities, both online and in-person, to determine what changes should
+                        be made to bring our actions in line with our rhetoric. <entity
+                            type="organization" identity="self">ALCTS</entity> is engaged in
+                        supporting equity, diversity and inclusion initiatives through work such as
+                        developing a code of ethics for <entity type="functional_area"
+                            >cataloging</entity>, supporting the <entity type="functional_area"
+                            >preservation</entity> needs of cultural heritage institutions through
+                            <entity type="program">Preservation in Action</entity>, providing grants
+                        for library professionals from developing countries to attend <entity
+                            type="organization" identity="self">ALCTS</entity> online courses,
+                        supporting <entity type="organization">ALA</entity> Spectrum Scholars, and
+                        providing people from underrepresented groups with awards to attend <entity
+                            type="event">the ALA Annual Conference</entity>. Our current activities,
+                        however, are just a starting point. Our new strategic plan, currently in
+                        draft form, includes explicit support for equity, diversity and inclusion as
+                        a core objective, promulgating the importance of EDI to all levels and
+                        activities within <entity type="organization" identity="self"
+                        >ALCTS</entity>. <entity type="organization" identity="self">ALCTS</entity>
+                        will invest financial resources to put the commitments of the <entity
+                            type="organization" identity="self">ALCTS</entity> strategic plan and
+                        this statement into action. We believe in the adage that every budget is a
+                        moral document—it is both practically and symbolically important that we put
+                        money behind our work in this area.</p>
+
+                    <p>Education and empowerment are key components of the work going forward. We
+                        will highlight the Statement of Appropriate Conduct at all <entity
+                            type="organization" identity="self">ALCTS</entity> meetings, we will
+                        ensure that participants are able to contact designated <entity
+                            type="organization" identity="self">ALCTS</entity> EDI resource
+                        representatives in case of conduct violations, and we will provide training
+                        to <entity type="organization" identity="self">ALCTS</entity> leaders to
+                        help them become skilled meeting facilitators who can intercede when
+                        behavior becomes problematic. In addition to strengthening <entity
+                            type="organization" identity="self">our own division</entity>’s support
+                        for EDI, we will pursue collaborations and partnerships with other <entity
+                            type="organization">ALA</entity> divisions and offices in support of
+                        these goals, including working with <entity type="organization"
+                            >LITA</entity> and <entity type="organization">LLAMA</entity> to develop
+                        bystander/allyship webinars and other training.</p>
+
+                    <p><entity type="organization" identity="self">ALCTS</entity> remains committed
+                        to improving equity, diversity and inclusion within the profession and
+                        within <entity type="organization" identity="self">the Association</entity>
+                        and to eliminating incidents of harassment, racism and discrimination. This
+                        statement serves to reaffirm and redouble our efforts in this area.</p>
+                </body>
+
+                <back>
+                    <div type="about">
+                        <p>The Association for Library Collections &amp; Technical Services
+                                (ALCTS)<link target="http://www.ala.org/alcts"/> is the national
+                            association for information providers who work in collections and
+                            technical services, such as acquisitions, cataloging, collection
+                            development, preservation and continuing resources in digital and print
+                            formats. ALCTS is a division of the American Library Association.</p>
+                    </div>
+                    <div type="tags">
+                        <l>Association for Library Collections and Technical Svcs</l>
+                    </div>
+                </back>
+
+            </text>
+
+            <text
+                source="https://connect.ala.org/communities/community-home/digestviewer/viewthread?MessageKey=156b010c-2106-4f27-a5b5-11b19add534c">
+
+                <front>
+                    <docTitle focus="incidents" context="alamw19">STATEMENT ON ALA MID-WINTER
+                        INCIDENT</docTitle>
+                    <div type="pub_note">
+                        <l>Posted Feb 08, 2019 02:34 PM</l>
+                        <l>Adam Szczepaniak</l>
+                    </div>
+                </front>
+
+                <body>
+                    <p> The <entity type="organization" identity="self">Association of Specialized,
+                            Government, and Cooperative Library Agencies (ASGCLA)</entity> Executive
+                        Committee is troubled by reports of racist, discriminatory, and harassing
+                        behavior at <entity type="event">the 2019 ALA Midwinter Meeting</entity> in
+                            <entity type="place">Seattle, WA</entity>. We support those who
+                        experienced harassment or discrimination at <entity type="event">the ALA
+                            Meeting</entity>. We recognize that many in our profession have been
+                        marginalized, unrecognized, or put in intimidating environments. We believe
+                        that everyone needs to be heard and respected.</p>
+
+                    <p>
+                        <entity type="organization" identity="self">ASGCLA</entity> includes in its
+                        area of responsibility, service to <entity type="protected_group">persons
+                            facing barriers to library use that are both visible and
+                            invisible</entity>. <entity type="organization" identity="self"
+                            >ASGCLA</entity> affirms <entity type="organization">ALA</entity>'s
+                        fourth strategic direction of equity, diversity and inclusion, and the
+                        priorities set in the Equity Diversity and Inclusion Implementation
+                            Plan<link
+                            target="http://www.ala.org/aboutala/sites/ala.org.aboutala/files/content/diversity/EDI-SD-Implementation-FINAL.pdf"
+                        />. <entity type="organization" identity="self">ASGCLA</entity> urges
+                            <entity type="organization">ALA</entity> Management and the Executive
+                        Board to take quick action and provide leadership for the profession through
+                        education and advocacy. </p>
+
+                    <p>
+                        <entity type="organization" identity="self">ASGCLA</entity>, <entity
+                            type="organization">ALA</entity>, and the library profession must
+                        prioritize efforts to increase inclusion and respect for everyone. We are
+                        committed to supporting and acting on changes needed to make our profession
+                        and association truly inclusive. </p>
+                </body>
+
+                <back>
+                    <div type="contact">
+                        <l>Adam Szczepaniak</l>
+                        <l>Deputy State Librarian &amp; Director</l>
+                        <l>New Jersey State Library - Talking Book and Braille Center</l>
+                    </div>
+                </back>
+
+            </text>
+
+            <text source="https://www.llama.ala.org/llamaleads/?p=2848">
+
+                <front>
+                    <docTitle focus="incidents" context="alamw19">LLAMA Board Initial Response to
+                        MW19 Incidents</docTitle>
+                </front>
+
+                <body>
+                    <p>For members who are not aware of recent incidents of harassment at <entity
+                            type="event">the ALA Midwinter Meeting</entity> in <entity type="place"
+                            >Seattle</entity>, <entity type="organization" identity="self">the
+                            Library Leadership and Management Association (LLAMA)</entity> would
+                        like to call attention to the <entity type="organization">ALA</entity>
+                        Executive Board’s response<link
+                            target="http://www.ala.org/news/member-news/2019/01/ala-executive-board-releases-statement-regarding-incident-council-forum"
+                        />.</p>
+
+                    <p>As <entity type="organization" identity="self">our division</entity> name
+                        implies, we recognize we have a obligation to model supportive and
+                        respectful <entity type="functional_area">leadership</entity> across the
+                        entire organization. <entity type="organization" identity="self"
+                            >LLAMA</entity> affirms the efforts of <entity type="organization"
+                            >ALA</entity> to uphold the Statement of Appropriate Conduct, and
+                        recognizes we have much to do to improve equity, diversity, and inclusion
+                        within <entity type="organization">ALA</entity>. <entity type="organization"
+                            identity="self">LLAMA</entity> members know how important it is both for
+                            <entity type="organization" identity="self">our division</entity> and
+                        for our home institutions to combat bias, racism and harassment, so that
+                        through our organizations, we can all provide the best library or
+                        information services possible. <entity type="organization" identity="self"
+                            >LLAMA</entity> will continue to emphasize the <entity
+                            type="functional_area">leadership and management</entity> competencies
+                        that support safe, supportive workplaces — Communication skills, Emotional
+                        intelligence, Ethics, Conflict management, Diversity consciousness,
+                        Professionalism and Self awareness — and will seek opportunities to make
+                        sure all our members feel this is their organization.</p>
+                </body>
+
+                <back>
+                    <div type="contact">
+                        <l>Lynn Hoffman</l>
+                        <l>President, Library Leadership and Management Association (LLAMA)</l>
+                        <l>Director of Operations, Somerset County Library System of NJ</l>
+                    </div>
+                    <div type="tags">
+                        <l>Explore posts in the same categories: ALA Updates, LLAMA Leadership</l>
+                    </div>
+                </back>
+
+            </text>
+
+        </group>
+    </text>
+</document>
