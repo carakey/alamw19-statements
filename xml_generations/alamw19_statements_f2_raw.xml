@@ -283,7 +283,7 @@
                 </body>
          </text>
 
-            <text focus="violations" context="alamw19">
+            <text focus="discrimination" context="alamw19">
             <body>
                     <p>We at [This Organization] condemn strongly the incidents of racist behavior
                         that have been reported at the most recent [Event], the best known of which
@@ -414,7 +414,7 @@
                 </body>
          </text>
 
-            <text focus="violations" context="alamw19">
+            <text focus="discrimination" context="alamw19">
             <body>
                     <p>Many of you know about the incident of racialized aggression [Link] that [Named Person]
                         experienced during the [Event] in [Place]. She was not
@@ -474,7 +474,7 @@
                 </body>
          </text>
 
-            <text focus="violations" context="alamw19">
+            <text focus="discrimination" context="alamw19">
             <body>
                     <p>[This Organization] would like
                         to echo and support the statement [Link]
