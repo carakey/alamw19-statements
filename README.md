@@ -39,14 +39,14 @@ Python scripts were run with Python 2.7 using Mac OS Terminal.
 
 The first phase of the project consisted of copying the source texts from their various web locations into the Oxygen editor, marking up the document structure, and composing the XML document header. The metadata model, which follows a selection of TEI elements fairly closely for the header and throughout the document structure, was developed and iterated upon throughout this phase. The model aims to be reusable in other projects. The metadata model is described in greater detail here: [ALAMW19 Statements Metadata Model](documentation/metadata_model.md).
 
-Analysis and interpretation in the initial structural markup phase mainly occurred in two ways. The first was in making a distinction between the "essential" body of the text that would be further investigated and analyzed, versus "supporting" text that would not, such as information about the responsible organizations and about the circumstances of the texts' publication.
+Analysis and interpretation in the initial structural markup phase mainly occurred in two ways. The first was in making a distinction between the "essential" body of the text that would be further investigated and analyzed, versus "supporting" text that would not, such as information about the responsible organizations and about the circumstances of the texts' publication. The single exception was to indicate statements that had been issued by one of ALA's ethnic affiliates (four such affiliates are represented), in order to have the ability to distinguish organizations representing non-white groups when making claims about the influence of whiteness on the language of the statements.
 
-The second was in the assignment of categories to Document Titles, recorded in attributes. I observed that the statements' titles followed a small number of wording patterns pertaining to their stated focus and context.
+The second was in the assignment and encoding of document title categories. I observed that the statements' titles followed a small number of wording patterns pertaining to their stated focus and context.
 
 For focus, 17 out of 18 used one of four concepts:
 
 1. The word "racism," emphasizing the systemic concern
-1. A reference to negative behaviors violating the Code of Conduct, such as "racist incidents" or "aggression"
+1. A reference to negative discriminatory behaviors, such as "racist incidents" or "aggression"
 1. A reference to "incident" or "incidents" without further characterization
 1. One or more of "equity," "diversity," and "inclusion"
 
@@ -63,7 +63,7 @@ After the initial pass encoding the structure, the next effort was about anonymi
 
 The project's objective isn't to call out a particular organization for problematic wording, nor to compare which specific organization produced a more or less effective statement. My intention with the first transformation was to reduce bias - mainly my own - in the analysis of the content. Standardizing the data and reducing the text down to its essential content was also meant to simplify later analysis.
 
-Anonymity was increased drastically by redacting all tagged entities from F2 and subsequent generations of the document, replacing them with generic substitute text strings identifying the type of entity, e.g. "[Organization]." The added identity information was also incorporated into the substitute text strings. Additionally, supporting contextual information about the text was dropped, including document titles; only the standardized title categories were kept.  
+Anonymity was increased drastically by redacting all tagged entities from F2 and subsequent generations of the document, replacing them with generic substitute text strings identifying the type of entity, e.g. "[Organization]." The added identity information was also incorporated into the substitute text strings. Additionally, supporting contextual information about the text was dropped, including document titles; only the standardized title categories and the notation of ethnic affiliates kept.  
 
 A list of [all redacted ALAMW19 entities](documentation/entity_list.html) is included in the project documentation, generated using XQuery, [entity_list.xquery](queries/entity_list.xquery).
 
@@ -107,3 +107,32 @@ In spending the time marking the entities, I developed a loose sense of the loca
 1. Incorporated this output into an almost identical XSLT, [f3-f4_randomize.xsl](xsl_transforms/f3-f4_randomize.xsl), replacing the index positions.
 
 1. Applied XSLT to transform [alamw19_statements_f3_raw.xml](xml_generations/alamw19_statements_f3_raw.xml) to [alamw19_statements_f4_raw.xml](xml_generations/alamw19_statements_f4_raw.xml).
+
+### Fourth Generation (F4) Markup: Breaking the text into sentence-like units
+
+During this phase, the text was divided into sentences based on their syntax as well as their content. I manually added S-Unit (aka Sentence) tags to enclose each single articulated thought, whether it exactly matched an orthographic sentence or whether multiple independent clauses occurred within the bounds of a sentence. I also marked the type of content the S-Unit contained.
+
+#### Method
+
+1. I saved the F4 Raw XSLT ouptput as [alamw19_statements_f4.xml](xml_generations/alamw19_statements_f4.xml), using Oxygen's auto-indent tool to adjust the indentation for readability.
+
+1. During the initial pass through the F4 text, I added the structural `<s>` tags to define the sentence-like units ("S-Units"). In some cases, I made editorial changes to the text in order to allow the S-Units to stand independently with their meaning intact. Changes were enclosed in square brackets to show their editorial nature.
+    * Changes were allowed in two circumstances:
+        * Where an "artificial" sentence was constructed - an S-Unit that was not a separate orthographic sentence in the original text;
+        * Where an original sentence made reference to a preceding sentence.
+    * Examples of these editorial changes include:
+        * Capitalizing the first letter of an S-Unit derived from a compound sentence;
+        * Adding a period at the end of an S-Unit derived from a compound sentence;
+        * Inserting copied phrases from one part of a compound or complex sentence into another part where those phrases are implied;
+        * Supporting referential pronouns or phrases, like "it," "this," or "the same thing" with the nouns from a preceding sentence.
+    * In this last circumstance, I used the wording from the immediately preceding sentence in every case. In particular, this applies to the naming of the organization who issued the statement versus the use of "we" or "our organization."  In other words, if the preceding sentence stated the name of the issuing organization, I used "[[This Organization]]," whereas if the preceding sentence used the pronoun "we," I used "[we]."
+    * Worked example:
+        * F4 Raw text: _"We at [This Organization] are committed to do better by our community of librarians and we insist that as our parent organization [Organization] take leadership to do the same."_
+        * Approach: The original sentence expresses two distinct ideas: a commitment from the organization, and a call to action for the parent organization. I marked these two ideas in separate S-Units for analysis. I added a period at the end of S1 and capitalized the first letter of S2. I also substituted the referential phrase "do the same" in S2 with the wording from S1, "do better by our community of librarians."
+        * Resulting S-Units:
+            * S1: _"We at [This Organization] are committed to do better by our community of librarians[.]"_
+            * S2: _"[A]nd we insist that as our parent organization [Organization] take leadership to [do better by our community of librarians]."_
+
+1. In this first pass, I added @type attributes to certain types of S-Units which are of particular analytic interest:
+    * Descriptions of the ALAMW19 incident, other instances of discrimination, and/or of underlying structural racism in the library profession, to which the statement is meant to react.
+    * Proposed solutions, actions, or strategies.  

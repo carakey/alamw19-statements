@@ -30,39 +30,43 @@ Structural elements are the same as or similar to TEI elements as noted.
 | Project Description | tei:projectDesc | Record the aim or purpose for which an electronic file was encoded. Enclose text using one or more `<p>` (Paragraph) subelements. | `//header/encodingDesc/ projectDesc`|
 | Sampling Declaration | tei:samplingDecl | Record information about the rationale and methods for sampling, e.g. including or exclude portions of text. Enclose text using one or more `<p>` (Paragraph) subelements. | `//header/encodingDesc/ samplingDecl/p`|
 | TEXT SECTION |
-| Text | Similar to tei:text, but gains custom attributes from Document Title in F2 and subsequent generations | Contains a single text of any kind, whether unitary or composite. Under `<document>`, it separates the textual material contents from the header section. Under `<group>`, it separates each distinct source text into a unit. For distinct texts, use a @source attribute to record the URL of the source text in F1. | `/document/text` or `/document/text/group/text`|
+| Text | Similar to tei:text, but with custom attributes | Contains a single text of any kind, whether unitary or composite. Under `<document>`, it separates the textual material contents from the header section. Under `<group>`, it separates each distinct source text into a unit. For distinct texts, use a @source attribute to record the URL of the source text in F1. [@focus](#text-focus-values) and [@context](#text-context-values) attributes are added to characterize the title of the text and stand in for the title in F2 and subsequent generations. The optional [@resp](#text-resp-values) attribute is used to indicate any applicable special characterization of the entity responsible for the text's creation. | `/document/text` or `/document/text/group/text`|
 | Text Group | tei:group | Contains the body of a composite text, grouping together a sequence of distinct texts. | `/document/text/group`|
 | Front | tei:front | Use for supporting text preceding the main body of a text. Include here any text before the main body that should not be considered for content analysis. Should include Document Title; may also include typed Text Division subelements as appropriate. | `//text/front` |
 | Body | tei:body | Contains the whole body of a single unitary text. Include the full portion of the source text that should be considered for content analysis. | `//text/body` |
 | Back | tei:back | Use for any supporting text following the main body of a text. Include here any text after the main body that should not be considered for content analysis. Use typed Text Division subelements as appropriate. | `//text/back` |
-| Document Title | Similar to tei:docTitle but has custom attributes | In the F1 markup, encloses the given title. [@focus](#doctitle-focus-values) and [@context](#doctitle-context-values) attributes are added to characterize the title. The F1 to F2 transformation removes the given title, in order to anonymize and standardize data for analysis. Subsequent generations have no content in the `<docTitle>` element, but attribute values are retained. | `//text/front/docTitle` |
-| Text Division | tei:div | Contains a subdivision of text. Use within Front and Back elements to minimally define sections of supporting information around the body of the source text(s). Use multiple `<div>` elements to separate functional divisions of text. Select the division type using the [@type](#text-division-type-values) attribute. Enclose text using subelements Head, Line, List, or Paragraph. | `//text/front/div` or `//text/back/div` |
+| Document Title | tei:docTitle | Encloses the text's given title.  The F1 to F2 transformation removes the given title, in order to anonymize and standardize data for analysis. Subsequent generations have no content in the `<docTitle>` element, but attribute values are retained. | `//text/front/docTitle` |
+| Text Division | tei:div | Contains a subdivision of text. Use within Front and Back elements to minimally define sections of supporting information around the body of the source text(s). Use multiple `<div>` elements to separate functional divisions of text. Select the division type using the [@type](#text-division-type-values) attribute. Enclose text using subelements Head, Line, or Paragraph. | `//text/front/div` or `//text/back/div` |
 | Head | tei:head | Use to enclose text that is formatted as a heading. | `//div/head` or `//body/head` |
 | Line | Similar to tei:l but not restricted to verse | Use to enclose a portion of text that is formatted as a line. | `//div/l` or `//body/l`|
 | Paragraph | tei:p | Use to enclose a portion of text that is formatted as a paragraph. | `//div/p` or `//body/p` |
-| List | tei:list | Use to enclose a portion of text that is formatted as a list; surround the entire list in a single List element and use Item subelements to encode individual items. | `//div/list` or `//body/list` |
-| Item | tei:item | Use within a List element to enclose the individual components of a list. | `//div/list/item` or `//body/list/item`|
 | Link | Similar to tei:link but with custom syntax | May appear within any element that contains text. Insert a _self-closing_ (i.e. empty) Link element _after_ the linked text. Use a @target attribute whose value is the linked URL. The F1 to F2 transformation removes the URL but inserts the string "[Link]" to denote that a link exists in the source text. | `//*/link` |
 
 ### Controlled Attribute Values for F1 Document Structure Elements
 
-#### DocTitle _@focus_ Values
+#### Text _@focus_ Values
 
-Attribute Value | Usage |
+| Attribute Value | Usage |
 |---|---|
 | racism | Use when the title of the text includes the word "racism." |
-| violations | Use when the wording of the title of the text refers to specific negative behaviors, for example, "racist incidents" or "harassment". |
+| discrimination | Use when the wording of the title of the text refers to specific negative behaviors, for example, "racist incidents" or "harassment". |
 | incidents | Use when the statement title refers to "incident" or "incidents" but does not indicate their nature. |
 | edi | Use when the title of the text includes one or more of "equity," "diversity," "inclusion." |
 | unspecified | Use when the title of the text does not indicate the focus of the text. |
 
-#### DocTitle _@context_ Values
+#### Text _@context_ Values
 
-Attribute Value | Usage |
+| Attribute Value | Usage |
 |---|---|
 | alamw19 | Use when the title of the text refers to the ALA Midwinter Meeting 2019, including specific meetings during that event (e.g. "Council Forum"). |
 | profession | Use when the title of the text refers to "the library profession" or "the profession." |
 | unspecified | Use when the title of the text does not indicate the context of the text. |
+
+#### Text _@resp_ Values
+
+| Attribute Value | Usage |
+|---|---|
+| ethnic_affiliate | Use when the issuing organization is one of the self-described ethnic affiliates of the ALA. |
 
 #### Text Division _@type_ Values
 
@@ -82,7 +86,7 @@ Entity tags are a custom element used to anonymize and standardize the text for 
 | Property | Value |
 |---|---|
 | Element Name | Entity |
-| Path | `//body/p/entity` or `//body/list/item/entity` |
+| Path | `//body/p/entity` |
 | Definition | An entity is anything which has a distinct existence as an individual unit. |
 | Usage | Surround named entities with an Entity tag. Inclusion or exclusion of designators like "the" and "our" is somewhat flexible, and best judgment may be used for readability of the output. Use the [@type](#entity-type-values) attribute to specify the type of entity. Use the [@identity](#entity-identity-values) attribute to specify whether and how the entity is identified in the text. |
 
@@ -104,3 +108,31 @@ Entity tags are a custom element used to anonymize and standardize the text for 
 | named | Person entities only | Use when the name of the person is given. |
 | implied | Person entities only | Use when a specific person is being referred to without giving their name, but their identity could be derived from the identifying information given. (For example, a person referred to by their title when only one individual holds that title in the organization.) |
 | anonymous | Person entities only | Use when a specific person is being referred to without giving their name, and their identity cannot be established using only the identifying information given. (For example, a person referred to by their title when multiple individuals hold that title in the same organization. Note that in a highly publicized incident, identity is likely be surmisable even for a person marked anonymous in the text.) |
+
+### F4 Markup Phase: S-Units
+
+The "S-Unit" or Sentence element is adapted from TEI's S-Unit element (tei:s), demarcating the expression of individual sentence-like units. Custom attributes characterizing the sentence are added to this element at a later stage of markup, used for analyzing the text.
+
+| Property | Value |
+|---|---|
+| Element Name | S-Unit |
+| Path | `//body/p/s` |
+| Definition | Contains a sentence-like division of a text. |
+| Usage | Surround sentence-like units of text with an S-Unit `<s>` tag. A "sentence-like unit" expresses a single idea, with a subject, verb, and object (sometimes implied/understood). Multiple `<s>` elements may occur within an orthographic sentence in the text. Where editorial changes are needed to preserve meaning and maintain syntax, surround changes in square brackets. |
+
+#### S-Unit Attributes (in progress)
+| Attribute Name | Usage | Values |
+|---|---|---|
+| @type | Categorize the type of sentence using the controlled type list; use the verb as the primary indicator. | declaration / description / proposal |
+| @verb | Identify the main action in the sentence. Use the infinitive form of the main verb (without "to"), favoring the action over an auxiliary ("have," "is") or modal ("can," "must," "should") verb, and omitting negations ("not"). | {Actual text - to be queried and analyzed} |
+
+Declaration - an assertion, feeling, state of being... about the present time
+Description - something occurred in the past at a time and place
+Proposal - a plan or a call to action about something that will or should occur in the future
+
+
+| @subject |
+| @dir_obj | ?
+| @indir_obj | ?
+| @voice | Indicate whether the sentence is written using active voice, passive voice, or is indefinite. |
+| @tone | Indicate whether the tone sentence is positive (p), negative (n), or neutral/mixed/unclear (0) |
