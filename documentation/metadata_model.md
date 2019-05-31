@@ -109,24 +109,34 @@ Entity tags are a custom element used to anonymize and standardize the text for 
 | implied | Person entities only | Use when a specific person is being referred to without giving their name, but their identity could be derived from the identifying information given. (For example, a person referred to by their title when only one individual holds that title in the organization.) |
 | anonymous | Person entities only | Use when a specific person is being referred to without giving their name, and their identity cannot be established using only the identifying information given. (For example, a person referred to by their title when multiple individuals hold that title in the same organization. Note that in a highly publicized incident, identity is likely be surmisable even for a person marked anonymous in the text.) |
 
-### F4 Markup Phase: S-Units
+### F4 Markup Phase: Sentences and Phrases
 
-The "S-Unit" or Sentence element is adapted from TEI's S-Unit element (tei:s), demarcating the expression of individual sentence-like units. Custom attributes characterizing the sentence are added to this element at a later stage of markup, used for analyzing the text.
+The "S" or Sentence element is adapted from TEI's S-Unit element (tei:s), demarcating the expression of individual sentence-like units. Custom attributes characterizing the sentence are added to this element at a later stage of markup, used for analyzing the text.
 
-| Property | Value |
+| Element Name | TEI Mapping | Usage | Path |
+|---|---|---|---|
+| Sentence | tei:s | Surround sentence-like units of text with a Sentence tag. A "sentence-like unit" expresses a single idea, typically with a subject or actor, verb or action, and object.  Multiple Sentence elements may occur within an orthographic sentence in the text. Where editorial changes are needed to preserve meaning and maintain syntax, surround changes in square brackets. | `//body/p/s` |
+| Phrase | tei:phr | Surround phrases of analytic interest within a Sentence element with a Phrase tag. Use [@type](#phrase-type-values) to describe the Phrase. A Phrase may be nested within another Phrase element. | `//s/phr` or `//s/phr/phr` |
+
+#### Phrase _@type_ Values
+| Attribute Value | Usage |
 |---|---|
-| Element Name | S-Unit |
-| Path | `//body/p/s` |
-| Definition | Contains a sentence-like division of a text. |
-| Usage | Surround sentence-like units of text with an S-Unit `<s>` tag. A "sentence-like unit" expresses a single idea, typically with a subject, verb, and object (sometimes implied/understood).  Multiple `<s>` elements may occur within an orthographic sentence in the text. Where editorial changes are needed to preserve meaning and maintain syntax, surround changes in square brackets. |
+| description | Use for phrases describing the ALAMW19 incident, other instances of discrimination, and/or of underlying structural racism in the library profession, to which the statement is meant to react. Also use for phrases describing the victims or perpetrators of racism or discrimination. |
+| proposal | Use for phrases proposing solutions, actions, or strategies aimed at addressing racism and discrimination. The wording of the phrase should elicit action in the real world, along the lines of "will do," "should do," or "need to do," or "are doing"; expressions of feelings, positions, or ideals are not proposals. |
 
-#### S-Unit Attributes (in progress)
+///
+#### Phrase _@voice_ Values (add later)
+| Attribute Value | Usage |
+|---|---|
+| active | Use when the subject of the phrase performs the action. |
+| passive | Use when the subject of the phrase is the recipient of the action. |
+| na | Use when the construction of phrase does not include or imply both subject and action components. |
+
+#### Sentence / Phrase Attribute List (in progress)
 | Attribute Name | Usage | Values |
 |---|---|---|
-| @type | Categorize the type of sentence using the controlled type list. | description / proposal |
-
 | @actor |
 | @action |
-| @object |
-| @voice | Indicate whether the sentence is written using active voice, passive voice, or is indefinite. |
+| @recipient |
 | @tone | Indicate whether the tone sentence is positive (p), negative (n), or neutral/mixed/unclear (u) |
+///

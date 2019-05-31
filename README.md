@@ -108,31 +108,33 @@ In spending the time marking the entities, I developed a loose sense of the loca
 
 1. Applied XSLT to transform [alamw19_statements_f3_raw.xml](xml_generations/alamw19_statements_f3_raw.xml) to [alamw19_statements_f4_raw.xml](xml_generations/alamw19_statements_f4_raw.xml).
 
-### Fourth Generation (F4) Markup: Breaking the text into sentence-like units
+### Fourth Generation (F4) Markup: Sentences and Phrases
 
-During this phase, the text was divided into sentences based on their syntax as well as their content. I manually added S-Unit (aka Sentence) tags to enclose each single articulated thought, whether it exactly matched an orthographic sentence or whether multiple independent clauses occurred within the bounds of a sentence. I also marked the type of content the S-Unit contained.
+During this phase, the text was divided into sentences based on their syntax as well as their content. I manually added Sentence (aka S-Unit) tags to enclose each single articulated thought, typically consisting of an actor, an action, and a recipient of the action. Frequently the Sentence tag exactly matched an orthographic sentence, though in cases of compound sentences in the original text, the text was broken into multiple Sentence tags. I also encoded particular types of phrases that were of analytic interest.
 
 #### Method
 
 1. I saved the F4 Raw XSLT ouptput as [alamw19_statements_f4.xml](xml_generations/alamw19_statements_f4.xml), using Oxygen's auto-indent tool to adjust the indentation for readability.
 
-1. During the initial pass through the F4 text, I added the structural `<s>` tags to define the sentence-like units ("S-Units"). In some cases, I made editorial changes to the text in order to allow the S-Units to stand independently with their meaning intact. Changes were enclosed in square brackets to show their editorial nature.
+1. During the initial pass through the F4 text, I added the structural `<s>` tags to define  sentence-like units within the text. In some cases, I made editorial changes to the text in order to allow the Sentences to stand independently with their meaning intact. Changes were enclosed in square brackets to show their editorial nature.
     * Changes were allowed in two circumstances:
-        * Where an "artificial" sentence was constructed - an S-Unit that was not a separate orthographic sentence in the original text;
-        * Where an original sentence made reference to a preceding sentence.
+        * Where an "artificial" sentence was constructed - a sentence-like-unit (S-Unit) that was not a separate orthographic sentence in the original text;
+        * Where a sentence made reference to a preceding sentence.
     * Examples of these editorial changes include:
         * Capitalizing the first letter of an S-Unit derived from a compound sentence;
         * Adding a period at the end of an S-Unit derived from a compound sentence;
         * Inserting copied phrases from one part of a compound or complex sentence into another part where those phrases are implied;
         * Supporting referential pronouns or phrases, like "it," "this," or "the same thing" with the nouns from a preceding sentence.
-    * In this last circumstance, I used the wording from the immediately preceding sentence in every case. In particular, this applies to the naming of the organization who issued the statement versus the use of "we" or "our organization."  In other words, if the preceding sentence stated the name of the issuing organization, I used "[[This Organization]]," whereas if the preceding sentence used the pronoun "we," I used "[we]."
+    * In this last circumstance, I used the wording from the immediately preceding sentence in every case that was practicable. In particular, this applies to the naming of the organization who issued the statement versus the use of "we" or "our organization."  In other words, if the preceding sentence stated the name of the issuing organization, I used "[[This Organization]]," whereas if the preceding sentence used the pronoun "we," I used "[we]."
     * Worked example:
         * F4 Raw text: _"We at [This Organization] are committed to do better by our community of librarians and we insist that as our parent organization [Organization] take leadership to do the same."_
-        * Approach: The original sentence expresses two distinct ideas: a commitment from the organization, and a call to action for the parent organization. I marked these two ideas in separate S-Units for analysis. I added a period at the end of S1 and capitalized the first letter of S2. I also substituted the referential phrase "do the same" in S2 with the wording from S1, "do better by our community of librarians."
+        * Approach: The original sentence expresses two distinct ideas: a commitment from the organization, and a call to action for the parent organization. I marked these two ideas in separate Sentence tags for analysis. I added a period at the end of S1 and capitalized the first letter of S2. I also substituted the referential phrase "do the same" in S2 with the wording from S1, "do better by our community of librarians."
         * Resulting S-Units:
             * S1: _"We at [This Organization] are committed to do better by our community of librarians[.]"_
             * S2: _"[A]nd we insist that as our parent organization [Organization] take leadership to [do better by our community of librarians]."_
 
-1. In this first pass, I added @type attributes to certain types of S-Units which are of particular analytic interest:
+1. In this first pass, I marked two types of phrases within sentences:
     * Descriptions of the ALAMW19 incident, other instances of discrimination, and/or of underlying structural racism in the library profession, to which the statement is meant to react.
-    * Proposed solutions, actions, or strategies.  
+    * Proposed solutions, actions, or strategies aimed at addressing racism and discrimination.  
+
+1. In S-Units that I marked as Descriptions or Proposals, I also recorded whether the sentence (or phrase) was constructed using active or passive voice.

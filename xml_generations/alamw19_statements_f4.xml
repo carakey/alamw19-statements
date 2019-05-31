@@ -63,247 +63,382 @@
         <group>
             <text focus="unspecified" context="unspecified">
                 <body>
-                    <p>[This Organization] voices our serious concern about the reported verbal
-                        abuse of [Anonymous Person], at [Event].</p>
+                    <p>
+                        <s>[This Organization] voices our serious concern about <phr
+                                type="description">the reported verbal abuse of [Anonymous Person],
+                                at [Event].</phr></s>
+                    </p>
 
-                    <p>[This Organization] reasserts our commitment to equity, diversity and
-                        inclusion at all meetings and events. We have a zero-tolerance policy
-                        towards harassment or intimidating and aggressive behavior. We strongly urge
-                        [Organization] to hold their [Organization] accountable to ensure a safe
-                        space for all who attend their conferences.</p>
+                    <p>
+                        <s>[This Organization] reasserts our commitment to equity, diversity and
+                            inclusion at all meetings and events.</s>
+                        <s>We have a zero-tolerance policy towards <phr type="description"
+                                >harassment or intimidating and aggressive behavior</phr>.</s>
+                        <s>We strongly urge <phr type="proposal">[Organization] to hold their
+                                [Organization] accountable to ensure a safe space for all who
+                            attend their conferences</phr>.</s>
+                    </p>
 
-                    <p>Incidents like these do not exist in a vacuum. We at [This Organization] are
-                        committed to do better by our community of librarians, and we insist that as
-                        our parent organization [Organization] take leadership to do the same.</p>
+                    <p>
+                        <s>Incidents like these do not exist in a vacuum.</s>
+                        <s>We at [This Organization] are committed to do better by our community of
+                            librarians[.]</s>
+                        <s>[A]nd we insist that as our parent organization <phr type="proposal"
+                                >[Organization] take leadership to [do better by our community of
+                                librarians]</phr>.</s>
+                    </p>
                 </body>
             </text>
+            
             <text focus="discrimination" context="alamw19">
                 <body>
-                    <p>We at [This Organization] condemn strongly the incidents of racist behavior
-                        that have been reported at the most recent [Event], the best known of which
-                        is the verbal attack on [Named Person] at [Event]. Other attendees have
-                        reported acts of aggression, exclusion, and racial profiling at this and
-                        previous conferences. This ongoing pattern of exclusionary behavior is
-                        absolutely unacceptable and completely contrary to our values as both a
-                        profession and an organization.</p>
+                    <p>
+                        <s>We at [This Organization] condemn strongly <phr type="description">the
+                                incidents of racist behavior that have been reported at the most
+                                recent [Event]</phr>, the best known of which is <phr
+                                type="description">the verbal attack on [Named Person] at
+                                [Event]</phr>.</s>
+                        <s>Other attendees have reported <phr type="description">acts of aggression,
+                                exclusion, and racial profiling</phr> at this and previous
+                            conferences.</s>
+                        <s><phr type="description">This ongoing pattern of exclusionary
+                                behavior</phr> is absolutely unacceptable and completely contrary to
+                            our values as both a profession and an organization.</s>
+                    </p>
 
-                    <p>We fully support the action steps outlined by [Named Person] (1) [Link]. We
-                        note that in a statement issued on Thursday, January 31st, the
-                        [Organization] Executive Board has made at least some steps towards each of
-                        these requests. We urge [Organization] and the [Organization] Executive
-                        Board to continue to move forward in addressing the concerns of its members.
-                        Further, we request that, in the interest of transparency and
-                        accountability, the [Organization] Conference Services Office give regular
-                        accounts of incidents of racism, homophobia, and other bigotry reported at
-                        conferences.</p>
+                    <p>
+                        <s>We fully support the action steps outlined by [Named Person] (1)
+                            [Link].</s>
+                        <s>We note that in a statement issued on Thursday, January 31st, <phr
+                                type="proposal">the [Organization] Executive Board has made at least
+                                some steps towards each of these requests [action steps outlined by
+                                [[Named Person]]</phr>.</s>
+                        <s>We urge <phr type="proposal">[Organization] and the [Organization]
+                                Executive Board to continue to move forward in addressing the
+                                concerns of its members</phr>.</s>
+                        <s>Further, we request that, in the interest of transparency and
+                            accountability, <phr type="proposal">the [Organization] Conference
+                                Services Office give regular accounts of <phr type="description"
+                                    >incidents of racism, homophobia, and other bigotry reported at
+                                    conferences</phr></phr>.</s>
+                    </p>
 
-                    <p>The change we must see goes beyond simple "diversity": we must take a truly
-                        progressive approach to championing anti-racism in our actions. If we are to
-                        live up to the directive in the [Organization] mission statement to "enhance
-                        learning and ensure access to information for all," (2) [Link] we must do
-                        better. We must protect each other, we must respect each other, and we must
-                        value each other. If we will not do these things for each other, we cannot
-                        do them for our communities.</p>
+                    <p>
+                        <s>The change we must see goes beyond simple "diversity": <phr
+                                type="proposal">we must take a truly progressive approach to
+                                championing anti-racism in our actions</phr>.</s>
+                        <s>If we are to live up to the directive in the [Organization] mission
+                            statement to "enhance learning and ensure access to information for
+                            all," (2) [Link] <phr type="proposal">we must do better</phr>.</s>
+                        <s><phr type="proposal">We must protect each other</phr>, <phr
+                                type="proposal">we must respect each other</phr>, <phr
+                                type="proposal">and we must value each other</phr>.</s>
+                        <s>If we will not do these things [protect, respect, and value] for each
+                            other, we cannot do them for our communities.</s>
+                    </p>
                 </body>
             </text>
+            
             <text focus="racism" context="profession">
                 <body>
-                    <p>The [This Organization] Board of Directors has learned of racist,
-                        discriminatory, and harassing behavior at [Event] in [Place]. We would like
-                        to express our support to those who were harassed and discriminated against
-                        during this particular incident and to all those who have lived and worked
-                        too long in unsafe environments.</p>
+                    <p>
+                        <s>The [This Organization] Board of Directors has learned of <phr
+                                type="description">racist, discriminatory, and harassing behavior at
+                                [Event] in [Place]</phr>.</s>
+                        <s>We would like to express our support to <phr type="description">those who
+                                were harassed and discriminated against during this particular
+                                incident</phr> and to <phr type="description">all those who have
+                                lived and worked too long in unsafe environments</phr>.</s>
+                    </p>
 
-                    <p>We would also like to renew our commitment to our statement on Equity,
-                        Diversity, and Inclusion and call upon [Organization] Executive Committee to
-                        quickly respond, reassess, and renew its commitment to their fourth
-                        strategic direction, through education and advocacy for our colleagues and
-                        our patrons.</p>
+                    <p>
+                        <s>We would also like to renew our commitment to our statement on Equity,
+                            Diversity, and Inclusion[.]</s>
+                        <s>[A]nd [we] call upon <phr type="proposal">[Organization] Executive
+                                Committee to quickly respond, reassess, and renew its commitment to
+                                their fourth strategic direction, through education and advocacy for
+                                our colleagues and our patrons</phr>.</s>
+                    </p>
 
-                    <p>It is more important than ever that we as [This Organization] and as
-                        librarians and library staff work on addressing the pervasive privilege and
-                        bias within our profession and association. It is our responsibility to
-                        continue this work so that we can continue to ensure “the right of access to
-                        information for people of all identities, backgrounds, ages, and abilities
-                        especially with regard to marginalized peoples.”</p>
+                    <p>
+                        <s>It is more important than ever that <phr type="proposal">we as [This
+                                Organization] and as librarians and library staff work on addressing
+                                    <phr type="description">the pervasive privilege and bias within
+                                    our profession and association</phr></phr>.</s>
+                        <s>It is our responsibility to continue this work [addressing pervasive
+                            privilege and bias] so that we can continue to ensure “the right of
+                            access to information for people of all identities, backgrounds, ages,
+                            and abilities especially with regard to marginalized peoples.”</s>
+                    </p>
                 </body>
             </text>
+            
             <text focus="incidents" context="alamw19">
                 <body>
 
-                    <p>We should not – and do not – accept harassment, bullying or discrimination of
-                        any kind in our profession or the work of [This Organization]. These
-                        behaviors go against our values. Violations to our code of conduct will not
-                        be tolerated.</p>
+                    <p><s>We should not – and do not – accept <phr type="description">harassment,
+                                bullying or discrimination of any kind</phr> in our profession or
+                            the work of [This Organization].</s> <s>These behaviors [harassment,
+                            bullying or discrimination] go against our values.</s>
+                        <s><phr type="description">Violations to our code of conduct</phr> will not
+                            be tolerated.</s></p>
 
-                    <p>We established a code of conduct because we take the responsibility of being
-                        respectful to each other very seriously.</p>
+                    <p>
+                        <s>We established a code of conduct because we take the responsibility of
+                            being respectful to each other very seriously.</s>
+                    </p>
 
-                    <p>We send our sincere apologies to [Named Person] for what she went through at
-                        [Event], which is unacceptable and doesn’t align with our core values.</p>
+                    <p>
+                        <s>We send our sincere apologies to [Named Person] for <phr
+                                type="description">what she went through at [Event]</phr>, which is
+                            unacceptable and doesn’t align with our core values.</s>
+                    </p>
 
-                    <p>[Implied Person] and [Implied Person] met with [Named Person] in [Place]
-                        shortly before [Event] to share some nonpublic information about events
-                        after the incident in question. [This Organization] leaders deeply regrets
-                        any distress this caused; it was not the intent of [Implied Person] or [This
-                        Organization] to threaten [Named Person] in any way.</p>
+                    <p>
+                        <s><phr type="description">[Implied Person] and [Implied Person] met with
+                                [Named Person] in [Place] shortly before [Event] to share some
+                                nonpublic information about events after the incident in
+                                question</phr>.</s>
+                        <s>[This Organization] leaders deeply regrets any distress this caused; it
+                            was not the intent of [Implied Person] or [This Organization] to
+                            threaten [Named Person] in any way.</s>
+                    </p>
 
-                    <p>[Anonymous Person] who instigated the incident has resigned and the Executive
-                        Board has accepted his resignation.</p>
+                    <p>
+                        <s><phr type="description">[Anonymous Person] who instigated the
+                                incident</phr> has resigned and the Executive Board has accepted his
+                            resignation.</s>
+                    </p>
 
-                    <p>We also offer our sincere apologies to members who also experienced
-                        violations of the code of conduct at [Event].</p>
+                    <p>
+                        <s>We also offer our sincere apologies to <phr type="description">members
+                                who also experienced violations of the code of conduct at
+                                [Event]</phr>.</s>
+                    </p>
 
-                    <p>We want to recognize that this incident has caused a lot of hurt and we are
-                        working diligently to ensure that at all [This Organization] events
-                        participants are - and feel - respected.  </p>
+                    <p><s>We want to recognize that this incident has caused a lot of hurt and <phr
+                                type="proposal">we are working diligently to ensure that at all
+                                [This Organization] events participants are - and feel -
+                                respected</phr>.</s>  </p>
 
-                    <p>The Executive Board will form a working group to look at [Event] and ways to
-                        make it a safer space up to its continued viability.</p>
+                    <p>
+                        <s><phr type="proposal">The Executive Board will form a working group to
+                                look at [Event] and ways to make it a safer space up to its
+                                continued viability</phr>.</s>
+                    </p>
 
-                    <p>We will review the current code of conduct complaint process to make it
-                        stronger and more effective.</p>
+                    <p>
+                        <s><phr type="proposal">We will review the current code of conduct complaint
+                                process to make it stronger and more effective</phr>.</s>
+                    </p>
 
-                    <p>We will work on facilitated racial equity training for [Event] during
-                        [Event]; that training and the code of conduct will be built into
-                        [Organization] Orientation moving forward.</p>
+                    <p>
+                        <s><phr type="proposal">We will work on facilitated racial equity training
+                                for [Event] during [Event]</phr>[.]</s>
+                        <s><phr type="proposal">[T]hat [facilitated racial equity] training and the
+                                code of conduct will be built into [Organization] Orientation moving
+                                forward</phr>.</s>
+                    </p>
 
-                    <p>In collaboration with the Office for Diversity, Literacy and Outreach
-                        Services, we will coordinate online and in-person resources on equity,
-                        diversity and inclusion for all members and for [This Organization] staff
-                        members.</p>
+                    <p>
+                        <s><phr type="proposal">In collaboration with the Office for Diversity,
+                                Literacy and Outreach Services, we will coordinate online and
+                                in-person resources on equity, diversity and inclusion for all
+                                members and for [This Organization] staff members</phr>.</s>
+                    </p>
 
-                    <p>[This Organization] and [Organization] have developed resources [Link] to
-                        embed principles of equity, diversity and inclusion in the work library
-                        workers do; see specifics for 2018 here [Link]. Last October during [Event],
-                        the Executive Board voted to affirm that [This Organization] will apply a
-                        social justice framework to the [Organization] Strategic Directions
-                        [Link] for the next three-to-five years in the areas of Advocacy,
-                        Information Policy, Professional and Leadership Development, and Equity,
-                        Diversity and Inclusion. We are building on the 2019 [Program] about "White
-                        Fragility" [Link].</p>
+                    <p>
+                        <s>[This Organization] and [Organization] have developed <phr
+                                type="proposal">resources [Link] to embed principles of equity,
+                                diversity and inclusion in the work library workers do</phr>; see
+                            specifics for 2018 here [Link].</s>
+                        <s>Last October during [Event], the Executive Board voted to affirm that
+                                <phr type="proposal">[This Organization] will apply a social justice
+                                framework to the [Organization] Strategic Directions
+                            [Link]</phr> for the next three-to-five years in the areas of Advocacy,
+                            Information Policy, Professional and Leadership Development, and Equity,
+                            Diversity and Inclusion.</s>
+                        <s><phr type="proposal">We are building on the 2019 [Program] about "White
+                                Fragility" [Link]</phr>.</s>
+                    </p>
 
-                    <p>This work can be messy, it takes time, but the Executive Board strives to
-                        create a better association every day. We ask for your collaboration to help
-                        us break through the systems of oppression and do the right thing at the
-                        right time, each time, as it should be done.</p>
+                    <p>
+                        <s>This work can be messy, it takes time, but the Executive Board strives to
+                            create a better association every day.</s>
+                        <s>We ask for your collaboration to <phr type="proposal">help us break
+                                through the systems of oppression</phr> and <phr type="proposal">do
+                                the right thing at the right time, each time, as it should be
+                                done</phr>.</s>
+                    </p>
 
                 </body>
             </text>
+            
             <text focus="racism" context="profession" resp="ea">
                 <body>
-                    <p>[This Organization] has learned that various conference attendees conveyed
-                        experiencing inappropriate and unacceptable behavior, including displays of
-                        racism and discrimination, at [Event] in [Place].</p>
+                    <p>
+                        <s>[This Organization] has learned that <phr type="description">various
+                                conference attendees conveyed experiencing inappropriate and
+                                unacceptable behavior, including displays of racism and
+                                discrimination, at [Event] in [Place]</phr>.</s>
+                    </p>
 
-                    <p>An ethnic affiliate of [Organization], [This Organization] is an association
-                        committed to supporting the academic, professional, and personal efforts of
-                        [Protected Group]. It is disheartening to learn that as we near our 50th
-                        anniversary as an organization, we are still dealing with micro and macro
-                        aggressions that make the library profession difficult for many people of
-                        color to navigate.</p>
+                    <p>
+                        <s>An ethnic affiliate of [Organization], [This Organization] is an
+                            association committed to supporting the academic, professional, and
+                            personal efforts of [Protected Group].</s>
+                        <s>It is disheartening to learn that as we near our 50th anniversary as an
+                            organization, we are still dealing with <phr type="description">micro
+                                and macro aggressions that make the library profession difficult for
+                                many people of color to navigate</phr>.</s>
+                    </p>
 
-                    <p>In working with and for [Protected Group] we are cognizant of the systemic
-                        racism that affects the lives of marginalized individuals and acknowledge
-                        that, while people of color may reach leadership positions, we cannot
-                        dismiss the hostility and inequity that comes with being a person of color
-                        in a predominantly white profession, as well as the ways oppression impacts
-                        all minority groups.</p>
+                    <p>
+                        <s>In working with and for [Protected Group] we are cognizant of <phr
+                                type="description">the systemic racism that affects the lives of
+                                marginalized individuals</phr> and acknowledge that, while people of
+                            color may reach leadership positions, we cannot dismiss <phr
+                                type="description">the hostility and inequity that comes with being
+                                a person of color in a predominantly white profession</phr>, as well
+                            as <phr type="description">the ways oppression impacts all minority
+                                groups</phr>.</s>
+                    </p>
 
-                    <p>[This Organization] urges [Organization] to address racism and discrimination
-                        in the profession, be it at the institutional level or at professional
-                        development convenings. As a beacon for information that is viewed globally,
-                        [Organization] must be the foundation for inclusion and respect for all. We
-                        ask that [Organization] take action, and support librarians of color who
-                        experience deliberate or unconscious discrimination, by taking all
-                        accusations or concerns regarding racism seriously. It requires further
-                        investigation and is a dialogue that must expand upon the program on 'White
-                        Fragility'.</p>
+                    <p>
+                        <s>[This Organization] urges <phr type="proposal">[Organization] to address
+                                racism and discrimination in the profession</phr>, be it at the
+                            institutional level or at professional development convenings.</s>
+                        <s>As a beacon for information that is viewed globally, [Organization] must
+                            be the foundation for inclusion and respect for all.</s>
+                        <s>We ask that <phr type="proposal">[Organization] take action, and support
+                                librarians of color who experience deliberate or unconscious
+                                discrimination, by taking all accusations or concerns regarding
+                                racism seriously</phr>.</s>
+                        <s><phr type="proposal">It [racism and discrimination in the profession]
+                                requires further investigation</phr>
+                            <phr type="proposal">and is a dialogue that must expand upon the program
+                                on 'White Fragility'</phr>.</s>
+                    </p>
 
-                    <p>[This Organization] stands with individuals who have been seen as anything
-                        other than their authentic selves recognizing that discrimination finds
-                        roots in all marginalized communities and across intersections of identity.
-                        We must not forget that while libraries are repositories and hubs for
-                        information and resources, they are also the cornerstone of the human
-                        condition where social justice plays a role in aiding in the quality of life
-                        for all.</p>
+                    <p>
+                        <s>[This Organization] stands with <phr type="description">individuals who
+                                have been seen as anything other than their authentic selves</phr>
+                            recognizing that <phr type="description">discrimination finds roots in
+                                all marginalized communities and across intersections of
+                                identity</phr>.</s>
+                        <s>We must not forget that while libraries are repositories and hubs for
+                            information and resources, they are also the cornerstone of the human
+                            condition where social justice plays a role in aiding in the quality of
+                            life for all.</s>
+                    </p>
                 </body>
             </text>
+            
             <text focus="edi" context="unspecified">
                 <body>
-                    <p>[This Organization] asserts its commitment to diversity, equity, and
-                        inclusion as core values of [This Organization]. This commitment is deeply
-                        embedded in the mission of libraries and archives, and in the work we do as
-                        an institutional-member organization called upon to provide leadership in
-                        key issues and practices that define our profession.</p>
+                    <p>
+                        <s>[This Organization] asserts its commitment to diversity, equity, and
+                            inclusion as core values of [This Organization].</s>
+                        <s>This commitment is deeply embedded in the mission of libraries and
+                            archives, and in the work we do as an institutional-member organization
+                            called upon to provide leadership in key issues and practices that
+                            define our profession.</s>
+                    </p>
 
-                    <p>The harassment and intimidation that occurred during the recent [Event]
-                        should be of grave concern to all in the profession and in the broader
-                        society. These events telegraph that we, as a society and a profession, are
-                        far from truly realizing the vision of racial equity that so many desire and
-                        that must be a core principle if we are to be a just and equitable
-                        society.</p>
+                    <p>
+                        <s><phr type="description">The harassment and intimidation that occurred
+                                during the recent [Event]</phr> should be of grave concern to all in
+                            the profession and in the broader society.</s>
+                        <s>These events [of harassment and intimidation] telegraph that we, as a
+                            society and a profession, are far from truly realizing the vision of
+                            racial equity that so many desire and that must be a core principle if
+                            we are to be a just and equitable society.</s>
+                    </p>
 
-                    <p>[This Organization] affirms its responsibility for providing resources and
-                        educating leaders in libraries and archives about the systemic barriers to
-                        achieving racial equity. [This Organization] recently adopted a code of
-                        conduct [Link] for our meetings and interactions, and we commit to
-                        bystander/ally training for the Board of Directors and staff to ensure that
-                        our meetings are welcoming, inclusive, and free of harassment or
-                        intimidation.</p>
+                    <p>
+                        <s>[This Organization] affirms its responsibility for providing resources
+                            and educating leaders in libraries and archives about <phr
+                                type="description">the systemic barriers to achieving racial
+                                equity</phr>.</s>
+                        <s><phr type="proposal">[This Organization] recently adopted a code of
+                                conduct [Link] for our meetings and interactions</phr>[.]</s>
+                        <s>[A]nd <phr type="proposal">we commit to bystander/ally training for the
+                                Board of Directors and staff</phr> to ensure that our meetings are
+                            welcoming, inclusive, and free of harassment or intimidation.</s>
+                    </p>
 
-                    <p>We will use this stark reminder of injustice as an opportunity for discussion
-                        and growth, so that we might strengthen our role in advancing equity and
-                        inclusion for all in our association and in our profession.</p>
+                    <p>
+                        <s>We will use this stark reminder of injustice as an opportunity for
+                            discussion and growth, so that we might strengthen our role in advancing
+                            equity and inclusion for all in our association and in our
+                            profession.</s>
+                    </p>
                 </body>
             </text>
+            
             <text focus="incidents" context="alamw19">
                 <body>
-                    <p>For members who are not aware of recent incidents of harassment at [Event] in
-                        [Place], [This Organization] would like to call attention to the
-                        [Organization] Executive Board’s response [Link].</p>
+                    <p>
+                        <s>For members who are not aware of <phr type="description">recent incidents
+                                of harassment at [Event] in [Place]</phr>, [This Organization] would
+                            like to call attention to the [Organization] Executive Board’s response
+                            [Link].</s>
+                    </p>
 
-                    <p>As [This Organization] name implies, we recognize we have a obligation to
-                        model supportive and respectful [Functional Area] across the entire
-                        organization. [This Organization] affirms the efforts of [Organization] to
-                        uphold the Statement of Appropriate Conduct, and recognizes we have much to
-                        do to improve equity, diversity, and inclusion within [Organization]. [This
-                        Organization] members know how important it is both for [This Organization]
-                        and for our home institutions to combat bias, racism and harassment, so that
-                        through our organizations, we can all provide the best library or
-                        information services possible. [This Organization] will continue to
-                        emphasize the [Functional Area] competencies that support safe, supportive
-                        workplaces — Communication skills, Emotional intelligence, Ethics, Conflict
-                        management, Diversity consciousness, Professionalism and Self awareness —
-                        and will seek opportunities to make sure all our members feel this is their
-                        organization.</p>
+                    <p>
+                        <s>As [This Organization] name implies, we recognize we have a obligation to
+                            model supportive and respectful [Functional Area] across the entire
+                            organization.</s>
+                        <s>[This Organization] affirms the efforts of <phr type="proposal"
+                                >[Organization] to uphold the Statement of Appropriate
+                            Conduct</phr>[.]</s>
+                        <s>[A]nd [[This Organization]] recognizes we have much to do to improve
+                            equity, diversity, and inclusion within [Organization].</s>
+                        <s>[This Organization] members know how important it is both for <phr
+                                type="proposal">[This Organization] and for our home institutions to
+                                combat <phr type="description">bias, racism and
+                                harassment</phr></phr>, so that through our organizations, we can
+                            all provide the best library or information services possible.</s>
+                        <s><phr type="proposal">[This Organization] will continue to emphasize the
+                                [Functional Area] competencies that support safe, supportive
+                                workplaces</phr> — Communication skills, Emotional intelligence,
+                            Ethics, Conflict management, Diversity consciousness, Professionalism
+                            and Self awareness[.]</s>
+                        <s>[A]nd <phr type="proposal">[[This Organization]] will seek opportunities
+                                to make sure all our members feel this is their
+                            organization</phr>.</s>
+                    </p>
                 </body>
             </text>
+            
             <text focus="edi" context="unspecified">
                 <body>
-                    <p>At the recent [Event], there were reports of violations of [Organization]’s
-                        Code of Conduct and the [Organization] Executive Board has released this
-                        statement [Link].</p>
+                    <p><s><phr type="description">At the recent [Event], there were reports of violations of [Organization]’s
+                        Code of Conduct</phr> and the [Organization] Executive Board has released this
+                        statement [Link].</s></p>
 
-                    <p>Like [Organization], [This Organization] is committed to creating an
-                        inclusive environment for all our members. In its 2018–2022 Strategic Plan
+                    <p><s>Like [Organization], [This Organization] is committed to creating an
+                        inclusive environment for all our members.</s> <s>In its 2018–2022 Strategic Plan
                         [Link], the [This Organization] Board of Directors affirmed its commitment
-                        to equity, diversity, inclusion and social justice (EDISJ). This work
+                        to equity, diversity, inclusion and social justice (EDISJ).</s> <s>This [EDISJ] work 
                         requires persistent and vigilant efforts to speak out and take action
                         against oppression in [Functional Area], in society, and within the library
-                        profession. To fully meet these goals, we must examine and test our systems
+                        profession.</s> <s>To fully meet these goals [to speak out and take action against oppression], we must examine and test our systems
                         for acting when we fall short of our aspirations, acknowledge gaps and
-                        shortcomings, and take action to do better. To this end, [This Organization]
+                        shortcomings, and take action to do better.</s> <s>To this end, [This Organization]
                         commits to: Supporting and participating in training and forums to address
-                        systemic racism in professional associations; Re-examining our own systems
+                        systemic racism in professional associations[.]</s> <s>[[This Organization]
+                            commits to:] Re-examining our own systems
                         for developing and delivering inclusive and respectful programs and events,
                         and for responding in a timely and transparent manner when incidents arise
-                        that violate the [Organization] Code of Conduct; Continuing and expanding
+                        that violate the [Organization] Code of Conduct[.]</s> <s>[[This Organization]
+                            commits to:] Continuing and expanding
                         training [Link] and resources that support equity, diversity, inclusion and
-                        social justice in [This Organization], [Organization] and our libraries;
-                        Equipping our members [Link] with tools, mentoring/coaching, learning
+                        social justice in [This Organization], [Organization] and our libraries[.]</s>
+                        <s>[[This Organization]
+                            commits to:] Equipping our members [Link] with tools, mentoring/coaching, learning
                         opportunities, and other resources to advocate and apply EDISJ principles in
-                        their libraries and communities.</p>
+                        their libraries and communities.</s></p>
 
                     <p>Please join [This Organization] leaders in reaffirming our commitment to
                         equity, diversity, inclusion and advancing social justice in our libraries,
