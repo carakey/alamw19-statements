@@ -78,7 +78,7 @@
                         the same.</p>
                 </body>
          </text>
-         <text focus="violations" context="alamw19">
+         <text focus="discrimination" context="alamw19">
             <body>
                     <p>We at [This Organization] condemn strongly the incidents of racist behavior
                         that have been reported at the most recent [Event], the best known of which
@@ -189,7 +189,7 @@
 
                 </body>
          </text>
-         <text focus="racism" context="profession">
+         <text focus="racism" context="profession" resp="ea">
             <body>
                     <p>[This Organization] has learned that various conference attendees
                         conveyed experiencing inappropriate and unacceptable behavior, including
@@ -289,21 +289,18 @@
                         out and take action against oppression in [Functional Area], in society, and within the library
                         profession. To fully meet these goals, we must examine and test our systems
                         for acting when we fall short of our aspirations, acknowledge gaps and
-                        shortcomings, and take action to do better. To this end, [This Organization] commits to:</p>
-                    <list>
-                        <item>Supporting and participating in training and forums to address
-                            systemic racism in professional associations;</item>
-                        <item>Re-examining our own systems for developing and delivering inclusive
-                            and respectful programs and events, and for responding in a timely and
-                            transparent manner when incidents arise that violate the [Organization] Code of Conduct;</item>
-                        <item>Continuing and expanding training [Link] and
-                            resources that support equity, diversity, inclusion and social justice
-                            in [This Organization], [Organization] and our libraries;</item>
-                        <item>Equipping our members [Link] with tools,
-                            mentoring/coaching, learning opportunities, and other resources to
-                            advocate and apply EDISJ principles in their libraries and
-                            communities.</item>
-                    </list>
+                        shortcomings, and take action to do better. To this end, [This Organization] commits to: Supporting
+                        and participating in training and forums to address systemic racism in
+                        professional associations; Re-examining our own systems for developing and
+                        delivering inclusive and respectful programs and events, and for responding
+                        in a timely and transparent manner when incidents arise that violate the
+                            [Organization] Code of Conduct; Continuing and
+                        expanding training [Link] and
+                        resources that support equity, diversity, inclusion and social justice in
+                            [This Organization], [Organization] and our libraries; Equipping our
+                            members [Link] with
+                        tools, mentoring/coaching, learning opportunities, and other resources to
+                        advocate and apply EDISJ principles in their libraries and communities.</p>
 
                     <p>Please join [This Organization] leaders
                         in reaffirming our commitment to equity, diversity, inclusion and advancing
@@ -348,7 +345,7 @@
                         this review.</p>
                 </body>
          </text>
-         <text focus="racism" context="unspecified">
+         <text focus="racism" context="unspecified" resp="ea">
             <body>
                     <p>[This Organization] stands with the individuals who experienced racism
                         and discrimination at [Event] in [Place]. We
@@ -398,7 +395,7 @@
                         and association truly inclusive. </p>
                 </body>
          </text>
-         <text focus="violations" context="alamw19">
+         <text focus="discrimination" context="alamw19">
             <body>
                     <p>[This Organization] would like
                         to echo and support the statement [Link]
@@ -471,7 +468,7 @@
                         justice in our communities and association.</p>
                 </body>
          </text>
-         <text focus="racism" context="unspecified">
+         <text focus="racism" context="unspecified" resp="ea">
             <body>
                     <p>[This Organization] expresses its support for the
                         Black people and people of color who experienced racism and harassment at
@@ -548,7 +545,7 @@
                         statement about racism and discrimination in the Library profession.</p>
                 </body>
          </text>
-         <text focus="incidents" context="alamw19">
+         <text focus="incidents" context="alamw19" resp="ea">
             <body>
                     <p>[This Organization] thanks [Organization], [Organization] Executive
                         Board, [Organization] and [Organization] for crafting such appropriate
@@ -565,7 +562,7 @@
                         and provide cultural sensitivity training.</p>
                 </body>
          </text>
-         <text focus="violations" context="alamw19">
+         <text focus="discrimination" context="alamw19">
             <body>
                     <p>Many of you know about the incident of racialized aggression [Link] that [Named Person]
                         experienced during the [Event] in [Place]. She was not

@@ -64,10 +64,10 @@
         <group>
 
             <text
-                source="http://www.ala.org/news/member-news/2019/01/ala-executive-board-releases-statement-regarding-incident-council-forum">
+                source="http://www.ala.org/news/member-news/2019/01/ala-executive-board-releases-statement-regarding-incident-council-forum" focus="incidents" context="alamw19">
 
                 <front>
-                    <docTitle focus="incidents" context="alamw19">ALA Executive Board releases
+                    <docTitle>ALA Executive Board releases
                         statement regarding incident at Council Forum</docTitle>
                     <div type="pub_note">
                         <l>For Immediate Release</l>
@@ -181,10 +181,10 @@
 
             </text>
 
-            <text source="http://www.apalaweb.org/apala-statement-against-racism-and-harassment">
+            <text source="http://www.apalaweb.org/apala-statement-against-racism-and-harassment"  focus="racism" context="unspecified" resp="ea">
 
                 <front>
-                    <docTitle focus="racism" context="unspecified">APALA statement against racism
+                    <docTitle>APALA statement against racism
                         and harassment</docTitle>
                     <div type="pub_note">
                         <l>For Immediate Release</l>
@@ -283,10 +283,10 @@
 
             </text>
 
-            <text source="https://www.acrl.ala.org/acrlinsider/archives/17145">
+            <text source="https://www.acrl.ala.org/acrlinsider/archives/17145" focus="racism" context="profession">
 
                 <front>
-                    <docTitle focus="racism" context="profession">ACRL Board Statement Against
+                    <docTitle>ACRL Board Statement Against
                         Racism, Harassment, and Discrimination in the Profession</docTitle>
                     <div type="pub_note">
                         <l>January 31, 2019 * ACRL Board of Directors</l>
@@ -349,10 +349,10 @@
 
             </text>
 
-            <text source="https://www.reforma.org/statement-against-racism">
+            <text source="https://www.reforma.org/statement-against-racism" focus="racism" context="profession" resp="ea">
 
                 <front>
-                    <docTitle focus="racism" context="profession">REFORMA Statement Against Racism
+                    <docTitle>REFORMA Statement Against Racism
                         and Discrimination in the Library Profession</docTitle>
                 </front>
 
@@ -420,10 +420,10 @@
 
             </text>
 
-            <text source="https://ailanet.org/aila-statement-against-racism-and-harassment">
+            <text source="https://ailanet.org/aila-statement-against-racism-and-harassment" focus="racism" context="unspecified" resp="ea">
 
                 <front>
-                    <docTitle focus="racism" context="unspecified">AILA Statement Against Racism and
+                    <docTitle>AILA Statement Against Racism and
                         Harassment</docTitle>
                     <div type="pub_note">
                         <l>February 1, 2019</l>
@@ -482,10 +482,10 @@
             </text>
 
             <text
-                source="https://www.facebook.com/notes/bcala-the-black-caucus-of-the-american-library-association/statement-in-response-to-incidents-at-ala-midwinter-2019/2250815475243894/">
+                source="https://www.facebook.com/notes/bcala-the-black-caucus-of-the-american-library-association/statement-in-response-to-incidents-at-ala-midwinter-2019/2250815475243894/" focus="incidents" context="alamw19" resp="ea">
 
                 <front>
-                    <docTitle focus="incidents" context="alamw19">Statement in Response to Incidents
+                    <docTitle>Statement in Response to Incidents
                         at ALA Midwinter 2019</docTitle>
                     <div type="pub_note">
                         <l>BCALA - The Black Caucus of the American Library Association * Thursday,
@@ -524,10 +524,10 @@
 
             </text>
 
-            <text source="http://libr.org/srrt/index.php">
+            <text source="http://libr.org/srrt/index.php" focus="discrimination" context="alamw19">
 
                 <front>
-                    <docTitle focus="discrimination" context="alamw19">SRRT Statement on Racist
+                    <docTitle>SRRT Statement on Racist
                         Aggression at ALA Conferences</docTitle>
                     <div type="pub_note">
                         <l>February 2, 2019</l>
@@ -585,10 +585,10 @@
 
             </text>
 
-            <text source="https://www.glbtrt.ala.org/news/archives/4046">
+            <text source="https://www.glbtrt.ala.org/news/archives/4046" focus="racism" context="unspecified">
 
                 <front>
-                    <docTitle focus="racism" context="unspecified">GLBT Round Table Statement
+                    <docTitle>GLBT Round Table Statement
                         against Racism, Harassment, and Bullying</docTitle>
                     <div type="pub_note">
                         <l>by GLTBT News</l>
@@ -658,10 +658,10 @@
             </text>
 
             <text
-                source="https://litablog.org/2019/02/litas-statement-in-response-to-incidents-at-ala-midwinter-2019/">
+                source="https://litablog.org/2019/02/litas-statement-in-response-to-incidents-at-ala-midwinter-2019/" focus="incidents" context="alamw19">
 
                 <front>
-                    <docTitle focus="incidents" context="alamw19">LITA’s Statement in Response to
+                    <docTitle>LITA’s Statement in Response to
                         Incidents at ALA Midwinter 2019</docTitle>
                     <div type="pub_note">
                         <l>February 4, 2019 * Jenny Levine</l>
@@ -738,13 +738,13 @@
             </text>
 
             <text
-                source="https://rusaupdate.org/2019/02/rusa-statement-against-racism-discrimination-and-harassment-in-the-profession/">
+                source="https://rusaupdate.org/2019/02/rusa-statement-against-racism-discrimination-and-harassment-in-the-profession/" focus="racism" context="profession">
 
                 <front>
                     <div type="pub_note">
                         <l>By Reference and User Services Association * February 5, 2019</l>
                     </div>
-                    <docTitle focus="racism" context="profession">RUSA Statement Against Racism,
+                    <docTitle>RUSA Statement Against Racism,
                         Discrimination, and Harassment in the Profession</docTitle>
                     <div type="pub_note">
                         <l>February 5, 2019</l>
@@ -778,10 +778,10 @@
             </text>
 
             <text
-                source="https://docs.google.com/document/d/1R7jnzEI9wRlGplx9s3bvH5xr4Hw_qzH38fuu1qcUrfw/edit">
+                source="https://docs.google.com/document/d/1R7jnzEI9wRlGplx9s3bvH5xr4Hw_qzH38fuu1qcUrfw/edit" focus="discrimination" context="alamw19">
 
                 <front>
-                    <docTitle focus="discrimination" context="alamw19">Open letter to ACRL Digital
+                    <docTitle>Open letter to ACRL Digital
                         Scholarship Section addressing racial aggression at Midwinter</docTitle>
                     <div type="pub_note">
                         <l>SUBJECT: Open letter addressing racialized aggression at Midwinter</l>
@@ -877,10 +877,10 @@
 
             </text>
 
-            <text source="http://acrlny.org/statement-of-support-concern-from-acrl-ny/">
+            <text source="http://acrlny.org/statement-of-support-concern-from-acrl-ny/" focus="unspecified" context="unspecified">
 
                 <front>
-                    <docTitle focus="unspecified" context="unspecified">Statement of Support &amp;
+                    <docTitle>Statement of Support &amp;
                         Concern from ACRL/NY</docTitle>
                     <div type="pub_note">
                         <l>Posted on 01/31/2019 by Derek Stadler</l>
@@ -918,10 +918,10 @@
             </text>
 
             <text
-                source="https://acrloregon.org/2019/01/31/statement-of-concern-about-racist-incidents-at-theala-midwinter-conference/">
+                source="https://acrloregon.org/2019/01/31/statement-of-concern-about-racist-incidents-at-theala-midwinter-conference/" focus="discrimination" context="alamw19">
 
                 <front>
-                    <docTitle focus="discrimination" context="alamw19">Statement of concern about racist
+                    <docTitle>Statement of concern about racist
                         incidents at the ALA Midwinter Conference</docTitle>
                     <div type="pub_note">
                         <l>Posted on January 31, 2019 by ajabm</l>
@@ -982,10 +982,10 @@
             </text>
 
             <text
-                source="https://www.arl.org/news/arl-news/4718-arl-affirms-commitment-to-advancing-diversity-equity-inclusion-#">
+                source="https://www.arl.org/news/arl-news/4718-arl-affirms-commitment-to-advancing-diversity-equity-inclusion-#" focus="edi" context="unspecified">
 
                 <front>
-                    <docTitle focus="edi" context="unspecified">Statement: ARL Affirms Commitment to
+                    <docTitle>Statement: ARL Affirms Commitment to
                         Advancing Diversity, Equity, Inclusion</docTitle>
                     <div type="contact">
                         <l>by Susan Gibbons, President | susan.gibbons@yale.edu | on February 01,
@@ -1050,13 +1050,13 @@
 
             </text>
 
-            <text source="http://www.ala.org/pla/about/mission">
+            <text source="http://www.ala.org/pla/about/mission" focus="edi" context="unspecified">
 
                 <front>
                     <div type="pub_note">
                         <l>PLA Mission and Strategy</l>
                     </div>
-                    <docTitle focus="edi" context="unspecified">PLA reaffirms commitment to equity,
+                    <docTitle>PLA reaffirms commitment to equity,
                         diversity, inclusion, and social justice</docTitle>
                 </front>
 
@@ -1080,25 +1080,20 @@
                         profession. To fully meet these goals, we must examine and test our systems
                         for acting when we fall short of our aspirations, acknowledge gaps and
                         shortcomings, and take action to do better. To this end, <entity
-                            type="organization" identity="self">PLA</entity> commits to:</p>
-                    <list>
-                        <item>Supporting and participating in training and forums to address
-                            systemic racism in professional associations;</item>
-                        <item>Re-examining our own systems for developing and delivering inclusive
-                            and respectful programs and events, and for responding in a timely and
-                            transparent manner when incidents arise that violate the <entity
-                                type="organization">ALA</entity> Code of Conduct;</item>
-                        <item>Continuing and expanding training<link
-                                target="http://www.ala.org/pla/education/inperson/equity"/> and
-                            resources that support equity, diversity, inclusion and social justice
-                            in <entity type="organization" identity="self">PLA</entity>, <entity
-                                type="organization">ALA</entity> and our libraries;</item>
-                        <item>Equipping our members<link
-                                target="http://www.ala.org/pla/initiatives/edi"/> with tools,
-                            mentoring/coaching, learning opportunities, and other resources to
-                            advocate and apply EDISJ principles in their libraries and
-                            communities.</item>
-                    </list>
+                            type="organization" identity="self">PLA</entity> commits to: Supporting
+                        and participating in training and forums to address systemic racism in
+                        professional associations; Re-examining our own systems for developing and
+                        delivering inclusive and respectful programs and events, and for responding
+                        in a timely and transparent manner when incidents arise that violate the
+                            <entity type="organization">ALA</entity> Code of Conduct; Continuing and
+                        expanding training<link
+                            target="http://www.ala.org/pla/education/inperson/equity"/> and
+                        resources that support equity, diversity, inclusion and social justice in
+                            <entity type="organization" identity="self">PLA</entity>, <entity
+                            type="organization">ALA</entity> and our libraries; Equipping our
+                            members<link target="http://www.ala.org/pla/initiatives/edi"/> with
+                        tools, mentoring/coaching, learning opportunities, and other resources to
+                        advocate and apply EDISJ principles in their libraries and communities.</p>
 
                     <p>Please join <entity type="organization" identity="self">PLA</entity> leaders
                         in reaffirming our commitment to equity, diversity, inclusion and advancing
@@ -1117,10 +1112,10 @@
             </text>
 
             <text
-                source="http://www.ala.org/news/press-releases/2019/02/alcts-statement-against-harassment-racism-and-discrimination-0">
+                source="http://www.ala.org/news/press-releases/2019/02/alcts-statement-against-harassment-racism-and-discrimination-0" focus="racism" context="unspecified">
 
                 <front>
-                    <docTitle focus="racism" context="unspecified">ALCTS Statement Against
+                    <docTitle>ALCTS Statement Against
                         Harassment, Racism and Discrimination</docTitle>
                     <div type="pub_note">
                         <l>For Immediate Release</l>
@@ -1228,10 +1223,10 @@
             </text>
 
             <text
-                source="https://connect.ala.org/communities/community-home/digestviewer/viewthread?MessageKey=156b010c-2106-4f27-a5b5-11b19add534c">
+                source="https://connect.ala.org/communities/community-home/digestviewer/viewthread?MessageKey=156b010c-2106-4f27-a5b5-11b19add534c" focus="incidents" context="alamw19">
 
                 <front>
-                    <docTitle focus="incidents" context="alamw19">STATEMENT ON ALA MID-WINTER
+                    <docTitle>STATEMENT ON ALA MID-WINTER
                         INCIDENT</docTitle>
                     <div type="pub_note">
                         <l>Posted Feb 08, 2019 02:34 PM</l>
@@ -1283,10 +1278,10 @@
 
             </text>
 
-            <text source="https://www.llama.ala.org/llamaleads/?p=2848">
+            <text source="https://www.llama.ala.org/llamaleads/?p=2848" focus="incidents" context="alamw19">
 
                 <front>
-                    <docTitle focus="incidents" context="alamw19">LLAMA Board Initial Response to
+                    <docTitle>LLAMA Board Initial Response to
                         MW19 Incidents</docTitle>
                 </front>
 

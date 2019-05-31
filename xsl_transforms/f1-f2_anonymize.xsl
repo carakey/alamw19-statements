@@ -25,13 +25,13 @@
         Text template:
             * Matches each <text> element under <group>.
             * Drops source attribute from F1 <text> element.
-            * Copies F1 <docTitle> attributes to <text> element.
+            * Copies F1 <text> attributes except @source.
             * Copies <body> element under <text> element.
             * <front> and <back> elements are not copied.
     -->
     <xsl:template match="//text/group/text">
         <xsl:element name="text">
-            <xsl:copy-of select="front/docTitle/@*"/>
+            <xsl:copy-of select="@*[not(name()='source')]"/>
             <xsl:for-each select="body">
                 <xsl:copy>
                     <xsl:apply-templates/>
