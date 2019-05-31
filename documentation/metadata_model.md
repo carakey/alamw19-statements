@@ -32,10 +32,10 @@ Structural elements are the same as or similar to TEI elements as noted.
 | TEXT SECTION |
 | Text | Similar to tei:text, but with custom attributes | Contains a single text of any kind, whether unitary or composite. Under `<document>`, it separates the textual material contents from the header section. Under `<group>`, it separates each distinct source text into a unit. For distinct texts, use a @source attribute to record the URL of the source text in F1. [@focus](#text-focus-values) and [@context](#text-context-values) attributes are added to characterize the title of the text and stand in for the title in F2 and subsequent generations. The optional [@resp](#text-resp-values) attribute is used to indicate any applicable special characterization of the entity responsible for the text's creation. | `/document/text` or `/document/text/group/text`|
 | Text Group | tei:group | Contains the body of a composite text, grouping together a sequence of distinct texts. | `/document/text/group`|
-| Front | tei:front | Use for supporting text preceding the main body of a text. Include here any text before the main body that should not be considered for content analysis. Should include Document Title; may also include typed Text Division subelements as appropriate. | `//text/front` |
+| Front | tei:front | Use for supporting text preceding the main body of a text. Include here any text before the main body that should not be considered for content analysis. Should include Document Title; may also include typed Text Division subelements as appropriate. The F1 to F2 transformation removes all content within the Front element. | `//text/front` |
 | Body | tei:body | Contains the whole body of a single unitary text. Include the full portion of the source text that should be considered for content analysis. | `//text/body` |
-| Back | tei:back | Use for any supporting text following the main body of a text. Include here any text after the main body that should not be considered for content analysis. Use typed Text Division subelements as appropriate. | `//text/back` |
-| Document Title | tei:docTitle | Encloses the text's given title.  The F1 to F2 transformation removes the given title, in order to anonymize and standardize data for analysis. Subsequent generations have no content in the `<docTitle>` element, but attribute values are retained. | `//text/front/docTitle` |
+| Back | tei:back | Use for any supporting text following the main body of a text. Include here any text after the main body that should not be considered for content analysis. Use typed Text Division subelements as appropriate. The F1 to F2 transformation removes all content within the Back element.| `//text/back` |
+| Document Title | tei:docTitle | Encloses the text's given title.  The F1 to F2 transformation removes the given title, in order to anonymize and standardize data for analysis. Subsequent generations have no content in the `<docTitle>` element, but text attribute values characterizing the title are retained. | `//text/front/docTitle` |
 | Text Division | tei:div | Contains a subdivision of text. Use within Front and Back elements to minimally define sections of supporting information around the body of the source text(s). Use multiple `<div>` elements to separate functional divisions of text. Select the division type using the [@type](#text-division-type-values) attribute. Enclose text using subelements Head, Line, or Paragraph. | `//text/front/div` or `//text/back/div` |
 | Head | tei:head | Use to enclose text that is formatted as a heading. | `//div/head` or `//body/head` |
 | Line | Similar to tei:l but not restricted to verse | Use to enclose a portion of text that is formatted as a line. | `//div/l` or `//body/l`|
@@ -66,7 +66,7 @@ Structural elements are the same as or similar to TEI elements as noted.
 
 | Attribute Value | Usage |
 |---|---|
-| ethnic_affiliate | Use when the issuing organization is one of the self-described ethnic affiliates of the ALA. |
+| ea | Use when the issuing organization is one of the self-described ethnic affiliates of the ALA. |
 
 #### Text Division _@type_ Values
 
@@ -118,21 +118,15 @@ The "S-Unit" or Sentence element is adapted from TEI's S-Unit element (tei:s), d
 | Element Name | S-Unit |
 | Path | `//body/p/s` |
 | Definition | Contains a sentence-like division of a text. |
-| Usage | Surround sentence-like units of text with an S-Unit `<s>` tag. A "sentence-like unit" expresses a single idea, with a subject, verb, and object (sometimes implied/understood). Multiple `<s>` elements may occur within an orthographic sentence in the text. Where editorial changes are needed to preserve meaning and maintain syntax, surround changes in square brackets. |
+| Usage | Surround sentence-like units of text with an S-Unit `<s>` tag. A "sentence-like unit" expresses a single idea, typically with a subject, verb, and object (sometimes implied/understood).  Multiple `<s>` elements may occur within an orthographic sentence in the text. Where editorial changes are needed to preserve meaning and maintain syntax, surround changes in square brackets. |
 
 #### S-Unit Attributes (in progress)
 | Attribute Name | Usage | Values |
 |---|---|---|
-| @type | Categorize the type of sentence using the controlled type list; use the verb as the primary indicator. | declaration / description / proposal |
-| @verb | Identify the main action in the sentence. Use the infinitive form of the main verb (without "to"), favoring the action over an auxiliary ("have," "is") or modal ("can," "must," "should") verb, and omitting negations ("not"). | {Actual text - to be queried and analyzed} |
+| @type | Categorize the type of sentence using the controlled type list. | description / proposal |
 
-Declaration - an assertion, feeling, state of being... about the present time
-Description - something occurred in the past at a time and place
-Proposal - a plan or a call to action about something that will or should occur in the future
-
-
-| @subject |
-| @dir_obj | ?
-| @indir_obj | ?
+| @actor |
+| @action |
+| @object |
 | @voice | Indicate whether the sentence is written using active voice, passive voice, or is indefinite. |
-| @tone | Indicate whether the tone sentence is positive (p), negative (n), or neutral/mixed/unclear (0) |
+| @tone | Indicate whether the tone sentence is positive (p), negative (n), or neutral/mixed/unclear (u) |
